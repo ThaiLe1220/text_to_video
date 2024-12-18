@@ -1,40 +1,115 @@
-from transformers import AutoTokenizer, AutoModel
+import time
+import numpy as np
+import sys
+import logging
 import torch
-import torch.nn.functional as F
 
+# Make sure this import matches your local structure
+from sentence_transformers_utils import load_data, load_embeddings
+from sentence_transformers import SentenceTransformer
 
-# Mean Pooling - Take attention mask into account for correct averaging
-def mean_pooling(model_output, attention_mask):
-    token_embeddings = model_output[
-        0
-    ]  # First element of model_output contains all token embeddings
-    input_mask_expanded = (
-        attention_mask.unsqueeze(-1).expand(token_embeddings.size()).float()
-    )
-    return torch.sum(token_embeddings * input_mask_expanded, 1) / torch.clamp(
-        input_mask_expanded.sum(1), min=1e-9
-    )
+# Configuration
+DEVICE = torch.device("cpu")
+DATA_FOLDER = "data"
+METADATA_FILENAME = "metadata.txt"
 
+# Models and their corresponding embeddings files
+AVAILABLE_MODELS = {
+    "sentence-transformers/all-mpnet-base-v2": {
+        "embeddings_filename": "embeddings_all-mpnet-base-v2.npy",
+    },
+    "sentence-transformers/all-MiniLM-L6-v2": {
+        "embeddings_filename": "embeddings_all-MiniLM-L6-v2.npy",
+    },
+}
 
-# Sentences we want sentence embeddings for
-sentences = ["This is an example sentence", "Each sentence is converted"]
+# Setup logging (optional, you can skip if not needed)
+logging.basicConfig(
+    filename="performance_test.log",
+    level=logging.DEBUG,
+    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+)
+logger = logging.getLogger(__name__)
 
-# Load model from HuggingFace Hub
-tokenizer = AutoTokenizer.from_pretrained("sentence-transformers/all-mpnet-base-v2")
-model = AutoModel.from_pretrained("sentence-transformers/all-mpnet-base-v2")
+# Load data
+try:
+    videos = load_data(DATA_FOLDER, METADATA_FILENAME)
+except Exception as e:
+    logger.critical(f"Failed to load data: {e}")
+    sys.exit(1)
 
-# Tokenize sentences
-encoded_input = tokenizer(sentences, padding=True, truncation=True, return_tensors="pt")
+# Load all models and embeddings
+models = {}
+embeddings_dict = {}
 
-# Compute token embeddings
-with torch.no_grad():
-    model_output = model(**encoded_input)
+for model_name, config in AVAILABLE_MODELS.items():
+    try:
+        print(f"Loading model: {model_name}")
+        model = SentenceTransformer(model_name, device=DEVICE)
+        models[model_name] = model
 
-# Perform pooling
-sentence_embeddings = mean_pooling(model_output, encoded_input["attention_mask"])
+        # Load or generate embeddings
+        embeddings = load_embeddings(
+            DATA_FOLDER, METADATA_FILENAME, config["embeddings_filename"], model_name
+        )
+        embeddings_dict[model_name] = embeddings
 
-# Normalize embeddings
-sentence_embeddings = F.normalize(sentence_embeddings, p=2, dim=1)
+        print(f"Model and embeddings ready for: {model_name}\n")
+    except Exception as e:
+        print(f"Failed to load model or embeddings for {model_name}: {e}")
+        logger.critical(f"Failed to load model or embeddings for {model_name}: {e}")
+        sys.exit(1)
 
-print("Sentence embeddings:")
-print(sentence_embeddings)
+# Test prompts
+test_prompts = [
+    "Find me a clip about machine learning",
+    # "A tutorial on how to bake bread",
+    # "A presentation on quantum computing",
+    # "Funny cat videos",
+    # "Interviews with famous scientists",
+]
+
+# Number of top results to retrieve
+TOP_K = 10
+
+print("\n=== PERFORMANCE TEST RESULTS ===\n")
+
+for prompt in test_prompts:
+    print(f'=== PROMPT: "{prompt}" ===\n')
+
+    for model_name in AVAILABLE_MODELS.keys():
+        model = models[model_name]
+        sentence_embeddings = embeddings_dict[model_name]
+        print(f"--- MODEL: {model_name} ---")
+
+        t1 = time.time()
+
+        # Encode prompt
+        prompt_embedding = model.encode([prompt])[0]
+
+        # Compute cosine similarity
+        norms = np.linalg.norm(sentence_embeddings, axis=1) * np.linalg.norm(
+            prompt_embedding
+        )
+        similarities = np.divide(
+            np.dot(sentence_embeddings, prompt_embedding),
+            norms,
+            out=np.zeros_like(np.dot(sentence_embeddings, prompt_embedding)),
+            where=norms != 0,
+        )
+
+        # Get top K indices
+        sorted_indices = np.argsort(similarities)[::-1][:TOP_K]
+
+        t2 = time.time()
+        elapsed = round(t2 - t1, 4)
+
+        # Print results in a compact txt inline format
+        print(f"TIME: {elapsed}s")
+        for rank, idx in enumerate(sorted_indices, start=1):
+            relevance = round(similarities[idx] * 100, 2)
+            video_name = videos[idx][0]
+            video_prompt = videos[idx][1]
+            print(f"{rank:2d}: {relevance:2.2f}% | {video_name:20s} | {video_prompt}")
+        print("")  # Add a newline for better readability
+    print("\n" + "=" * 50 + "\n")  # Separator between prompts

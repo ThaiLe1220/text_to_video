@@ -64,4 +64,13 @@ Only fill in what can be reliably inferred from the frame. If something is uncle
 ================================================
 curl -X POST "http://127.0.0.1:5000/search?items=10" \
      -H "Content-Type: application/json" \
-     -d '{"prompt": "a boy dancing"}' | jq
+     -d '{"prompt": "a boy dancing in the park"}' | jq > top10_MiniLM.json
+
+
+curl -X POST "http://127.0.0.1:5000/search?items=10" \
+     -H "Content-Type: application/json" \
+     -d '{"prompt": "a boy dancing in the park"}' | jq > top10_mpnet.json
+
+
+================================================
+python sentence_transformers_test.py > performance_results.txt
