@@ -58,3 +58,10 @@ Prompt to AI Agent:
   \"unique_features\": \"\"
 }
 Only fill in what can be reliably inferred from the frame. If something is unclear, provide your best guess while remaining coherent."
+
+
+
+================================================
+curl -X POST "http://127.0.0.1:5000/search?items=10" \
+     -H "Content-Type: application/json" \
+     -d '{"prompt": "a boy dancing"}' | jq
