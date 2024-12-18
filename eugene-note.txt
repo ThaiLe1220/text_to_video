@@ -1,0 +1,60 @@
+pip install -U sentence-transformers
+
+ollama run llama3.2-vision
+
+import ollama
+
+response = ollama.chat(
+    model='llama3.2-vision',
+    messages=[{
+        'role': 'user',
+        'content': 'What is in this image?',
+        'images': ['image.jpg']
+    }]
+)
+
+print(response)
+================================================
+
+================================================
+
+================================================
+{
+  "title": "<Short descriptive title>",
+  "main_subject": "<Primary subject(s) featured in the video>",
+  "context": "<Time period, era, or setting of the video>",
+  "location": "<Specific location or type of environment>",
+  "key_objects": "<Important objects, props, or elements visible>",
+  "actions_or_events": "<Main actions, interactions, or events in the scene>",
+  "style_and_mood": "<Visual style, mood, or atmosphere>",
+  "color_palette": "<Dominant colors or hues>",
+  "lighting_conditions": "<Type of lighting (e.g., natural daylight, neon glow, etc.)>",
+  "camera_style": "<Camera perspective, movements, or angles>",
+  "soundscape_description": "<If known, describe background sounds or music>",
+  "narrative_or_theme": "<High-level narrative theme or story arc>",
+  "target_audience": "<Intended audience or use-case>",
+  "unique_features": "<Any distinctive or unusual elements in the video>"
+}
+
+
+
+Prompt to AI Agent:
+"Analyze the provided main video frame. Based on visual evidence, produce a structured video prompt that includes the following details: a short descriptive title; a clear main subject and any relevant context or era; the general location or environment; key objects; any visible actions or events; overall style, mood, and color palette; lighting conditions; camera style or viewpoint; and any narrative themes that can be inferred. Format the response as a JSON object following this schema:
+
+{
+  \"title\": \"\",
+  \"main_subject\": \"\",
+  \"context\": \"\",
+  \"location\": \"\",
+  \"key_objects\": \"\",
+  \"actions_or_events\": \"\",
+  \"style_and_mood\": \"\",
+  \"color_palette\": \"\",
+  \"lighting_conditions\": \"\",
+  \"camera_style\": \"\",
+  \"soundscape_description\": \"\",
+  \"narrative_or_theme\": \"\",
+  \"target_audience\": \"\",
+  \"unique_features\": \"\"
+}
+Only fill in what can be reliably inferred from the frame. If something is unclear, provide your best guess while remaining coherent."
