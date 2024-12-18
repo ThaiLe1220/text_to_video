@@ -4,6 +4,7 @@ import ollama
 import os
 from tqdm import tqdm
 
+
 def generate_description_from_image(imageURL):
     """
     Generate a detailed description of a video based on 4 stacked key frames.
@@ -14,6 +15,7 @@ def generate_description_from_image(imageURL):
     Returns:
         str: A structured description of the video content.
     """
+
     prompt = """
 You will be given a single image frame extracted from a short video. Analyze the visual details of this frame and produce a concise English prompt describing what the short video might depict.
 Assume the frame is representative of the video, but do not invent details that cannot be seen or logically inferred. If certain information cannot be determined, leave those fields blank.
@@ -45,7 +47,8 @@ Provide only the JSON object as the final answer.
         images=[imageURL],
     )
 
-    return r["response"].replace('\n', ' ')
+    return r["response"].replace("\n", " ")
+
 
 def generate_description_from_images(input_dir, output_dir):
     images = os.listdir(input_dir)
@@ -54,7 +57,9 @@ def generate_description_from_images(input_dir, output_dir):
     metadata_file = f"new_metadata_20.txt"
     last_line = ""
     if not os.path.isfile(metadata_file):
-        with open(os.path.join(output_dir, metadata_file), "w", encoding="utf-8") as file:
+        with open(
+            os.path.join(output_dir, metadata_file), "w", encoding="utf-8"
+        ) as file:
             file.write("")
     else:
         with open(metadata_file, "r", encoding="utf-8") as file:
@@ -74,7 +79,7 @@ def generate_description_from_images(input_dir, output_dir):
         return
 
     print(f"\nCreating prompts for videos")
-    for image in tqdm(unprocess_images, desc="Describe videos", colour='green'):
+    for image in tqdm(unprocess_images, desc="Describe videos", colour="green"):
         video = os.path.splitext(image)[0] + ".mp4"
         desc = generate_description_from_image(os.path.join(input_dir, image))
         file.write(f"{video}|{desc}\n")
@@ -82,8 +87,6 @@ def generate_description_from_images(input_dir, output_dir):
 
     file.close()
 
-if __name__ == '__main__':
-    generate_description_from_images(
-        input_dir='images_20',
-        output_dir='./'
-    )
+
+if __name__ == "__main__":
+    generate_description_from_images(input_dir="images_20", output_dir="./")

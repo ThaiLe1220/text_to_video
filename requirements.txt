@@ -3,3 +3,5 @@ sentence_transformers
 fastapi
 uvicorn
 torch
+openai
+ollama

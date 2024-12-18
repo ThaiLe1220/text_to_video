@@ -74,3 +74,10 @@ curl -X POST "http://127.0.0.1:5000/search?items=10" \
 
 ================================================
 python sentence_transformers_test.py > performance_results.txt
+python sentence_transformers_test.py > performance_results_final.txt
+
+python prompt_prep.py testing_prompts.txt testing_prompts_final.txt
+
+
+export OPENAI_API_KEY='your-api-key-here'
+

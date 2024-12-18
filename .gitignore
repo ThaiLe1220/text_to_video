@@ -4,3 +4,5 @@ videos*/
 data*/
 *.log
 *test.txt
+.DS_Store
+*testing*.txt

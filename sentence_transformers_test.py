@@ -60,14 +60,21 @@ for model_name, config in AVAILABLE_MODELS.items():
         logger.critical(f"Failed to load model or embeddings for {model_name}: {e}")
         sys.exit(1)
 
+
+def load_test_prompts(filename="testing_prompts_gpt_final.txt"):
+    try:
+        with open(filename, "r", encoding="utf-8") as f:
+            # Filter out empty lines and strip leading/trailing spaces
+            prompts = [line.strip() for line in f if line.strip()]
+            print(f"Loaded {len(prompts)} test prompts from {filename}")
+            return prompts
+    except FileNotFoundError:
+        print(f"Error: {filename} not found.")
+        sys.exit(1)
+
+
 # Test prompts
-test_prompts = [
-    "Find me a clip about machine learning",
-    # "A tutorial on how to bake bread",
-    # "A presentation on quantum computing",
-    # "Funny cat videos",
-    # "Interviews with famous scientists",
-]
+test_prompts = load_test_prompts()
 
 # Number of top results to retrieve
 TOP_K = 10
