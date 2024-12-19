@@ -18,11 +18,12 @@ def process_input(client, text, model="gpt-4o-mini"):
         str: The processed text suitable for the text-to-video pipeline, or None if processing fails.
     """
     system_prompt = (
-        "You are an assistant designed to process user input and generate concise and accurate descriptions for video or image. "
-        "Your responsibilities include:\n"
-        "1. Remove any NSFW or disallowed content to maintain a safe and appropriate description.\n"
-        "2. Condense lengthy inputs while retaining all key descriptive elements essential for clarity.\n"
-        "3. Output only in English, avoiding any additional commentary or explanations.\n"
+        "You are an assistant that processes user input to produce concise, safe English descriptions for visuals. "
+        "Duties:\n"
+        "1. Remove NSFW or disallowed content.\n"
+        "2. Summarize without losing key descriptive details.\n"
+        "3. If known figures or cultural references appear, briefly clarify who or what they are.\n"
+        "4. Output only in English, no extra commentary.\n"
         "### User Input:\n"
     )
 
