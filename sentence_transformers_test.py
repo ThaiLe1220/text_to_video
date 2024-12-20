@@ -15,9 +15,9 @@ METADATA_FILENAME = "metadata.txt"
 
 # Models and their corresponding embeddings files
 AVAILABLE_MODELS = {
-    "sentence-transformers/all-mpnet-base-v2": {
-        "embeddings_filename": "embeddings_all-mpnet-base-v2.npy",
-    },
+    # "sentence-transformers/all-mpnet-base-v2": {
+    #     "embeddings_filename": "embeddings_all-mpnet-base-v2.npy",
+    # },
     "sentence-transformers/all-MiniLM-L6-v2": {
         "embeddings_filename": "embeddings_all-MiniLM-L6-v2.npy",
     },
@@ -74,7 +74,7 @@ def load_test_prompts(filename="testing_prompts_gpt_final.txt"):
 
 
 # Test prompts
-test_prompts = load_test_prompts()
+test_prompts = load_test_prompts("prompt_gpt.txt")
 
 # Number of top results to retrieve
 TOP_K = 10

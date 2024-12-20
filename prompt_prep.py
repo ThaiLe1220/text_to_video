@@ -18,32 +18,60 @@ def process_input(client, text, model="gpt-4o-mini"):
         str: The processed text suitable for the text-to-video pipeline, or None if processing fails.
     """
     system_prompt = (
-        "You are an assistant that processes user input to produce concise, safe English descriptions for visuals. "
-        "Duties:\n"
-        "1. Remove NSFW or disallowed content.\n"
-        "2. Summarize without losing key descriptive details.\n"
-        "3. If known figures or cultural references appear, briefly clarify who or what they are.\n"
-        "4. Output only in English, no extra commentary.\n"
+        "You are an assistant designed to process user input and generate concise and accurate descriptions for a video or image. "
+        "Your responsibilities include:\n"
+        "1. Remove any NSFW or disallowed content (e.g., violence, hate speech) to maintain a safe and appropriate description.\n"
+        "2. Condense lengthy inputs while retaining all key descriptive elements essential for clarity.\n"
+        "3. If known figures or cultural references appear, include their names and provide a brief description of their physical appearance or distinguishing features.\n"
+        "4. Output only in English, avoiding any additional commentary or explanations.\n"
         "### User Input:\n"
     )
 
     user_prompt = f"{text}"
 
+    response = client.chat.completions.create(
+        model=model,
+        messages=[
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": user_prompt},
+        ],
+        temperature=0.4,
+        max_tokens=100,
+        timeout=15,
+    )
+
+    processed_text = re.sub(
+        r"\s*\n\s*", " ", response.choices[0].message.content.strip()
+    )
+    return processed_text
+
+
+def process_input_2(client, text, model="gpt-4o-mini"):
+    """
+    Translates the given text into English using OpenAI's GPT API.
+
+    Args:
+        client (OpenAI): An instance of the OpenAI client.
+        text (str): The user-provided text input.
+        model (str): The OpenAI model to use for processing.
+
+    Returns:
+        str: The translated text in English, or None if processing fails.
+    """
+    user_prompt = (
+        "Translate the following text into English, return the translated content only, and do not add anything else: "
+        + text
+    )
+
     try:
         response = client.chat.completions.create(
             model=model,
-            messages=[
-                {"role": "system", "content": system_prompt},
-                {"role": "user", "content": user_prompt},
-            ],
-            temperature=0.3,
-            max_tokens=120,
-            timeout=15,
+            messages=[{"role": "user", "content": user_prompt}],
         )
 
-        processed_text = re.sub(
-            r"\s*\n\s*", " ", response.choices[0].message.content.strip()
-        )
+        # Extract and clean the translated text
+        processed_text = response.choices[0].message.content.strip()
+
         return processed_text
 
     except Exception as e:
@@ -89,7 +117,7 @@ def main(input_file_path, output_file_path):
 
                 print(f"Translating line {idx}: {original_text}")
 
-                translated_text = process_input(client, original_text)
+                translated_text = process_input_2(client, original_text)
 
                 if translated_text is not None:
                     outfile.write(translated_text + "\n")
