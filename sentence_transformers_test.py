@@ -15,9 +15,9 @@ METADATA_FILENAME = "metadata.txt"
 
 # Models and their corresponding embeddings files
 AVAILABLE_MODELS = {
-    # "sentence-transformers/all-mpnet-base-v2": {
-    #     "embeddings_filename": "embeddings_all-mpnet-base-v2.npy",
-    # },
+    "sentence-transformers/all-mpnet-base-v2": {
+    	"embeddings_filename": "embeddings_all-mpnet-base-v2.npy",
+    },
     "sentence-transformers/all-MiniLM-L6-v2": {
         "embeddings_filename": "embeddings_all-MiniLM-L6-v2.npy",
     },
