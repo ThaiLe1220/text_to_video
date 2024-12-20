@@ -5,18 +5,7 @@ import time
 from openai import OpenAI
 
 
-def process_input(client, text, model="gpt-4o-mini"):
-    """
-    Processes the given text to ensure it is safe, summarized, and in English using OpenAI's GPT API.
-
-    Args:
-        client (OpenAI): An instance of the OpenAI client.
-        text (str): The user-provided text input.
-        model (str): The OpenAI model to use for processing.
-
-    Returns:
-        str: The processed text suitable for the text-to-video pipeline, or None if processing fails.
-    """
+def process_input_gpt_thai(client, text, model="gpt-4o-mini"):
     system_prompt = (
         "You are an assistant designed to process user input and generate concise and accurate descriptions for a video or image. "
         "Your responsibilities include:\n"
@@ -46,18 +35,42 @@ def process_input(client, text, model="gpt-4o-mini"):
     return processed_text
 
 
-def process_input_2(client, text, model="gpt-4o-mini"):
-    """
-    Translates the given text into English using OpenAI's GPT API.
+def process_input_gpt_huy(client, text, model="gpt-4o-mini"):
+    system_prompt = (
+        "You are an assistant designed to process user input and generate concise and accurate descriptions for video or image. "
+        "Your responsibilities include:\n"
+        "1. Remove any NSFW or disallowed content to maintain a safe and appropriate description.\n"
+        "2. Condense lengthy inputs while retaining all key descriptive elements essential for clarity.\n"
+        "3. Output only in English, avoiding any additional commentary or explanations.\n"
+        "### User Input:\n"
+    )
 
-    Args:
-        client (OpenAI): An instance of the OpenAI client.
-        text (str): The user-provided text input.
-        model (str): The OpenAI model to use for processing.
+    user_prompt = f"{text}"
 
-    Returns:
-        str: The translated text in English, or None if processing fails.
-    """
+    try:
+        response = client.chat.completions.create(
+            model=model,
+            messages=[
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": user_prompt},
+            ],
+            temperature=0.3,
+            max_tokens=120,
+            timeout=15,
+        )
+
+        processed_text = re.sub(
+            r"\s*\n\s*", " ", response.choices[0].message.content.strip()
+        )
+        return processed_text
+
+    except Exception as e:
+        print(f"An unexpected error occurred: {e}")
+        return None
+
+
+def process_input_gpt(client, text, model="gpt-4o-mini"):
+
     user_prompt = (
         "Translate the following text into English, return the translated content only, and do not add anything else: "
         + text
@@ -80,13 +93,6 @@ def process_input_2(client, text, model="gpt-4o-mini"):
 
 
 def main(input_file_path, output_file_path):
-    """
-    Reads each line from the input file, translates it, and writes all translations to a single output file.
-
-    Args:
-        input_file_path (str): Path to the input text file.
-        output_file_path (str): Path to the output text file.
-    """
     # Check if the input file exists
     if not os.path.isfile(input_file_path):
         print(f"Error: The input file '{input_file_path}' does not exist.")
