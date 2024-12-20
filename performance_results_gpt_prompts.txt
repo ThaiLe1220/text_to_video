@@ -1,0 +1,889 @@
+Loading model: sentence-transformers/all-MiniLM-L6-v2
+Model and embeddings ready for: sentence-transformers/all-MiniLM-L6-v2
+
+Loaded 49 test prompts from prompt_gpt.txt
+
+=== PERFORMANCE TEST RESULTS ===
+
+=== PROMPT: "Find me a clip about machine learning." ===
+
+--- MODEL: sentence-transformers/all-MiniLM-L6-v2 ---
+TIME: 0.0686s
+ 1: 37.34% | mixkit_v2_02099.mp4  | Video with concept about weight loss and diet
+ 2: 32.65% | mixkit_v2_05384.mp4  | Back view of a man's head receiving a haircut with a haircutting machine.
+ 3: 32.21% | processed_017301.mp4 | movie still sci-fi, 1person interacting with computer technology, close-up of person's hand typing on keyboard surrounded by colorful graphs and charts on computer screen, fingers moving swiftly over keys as they engage in complex data analysis, modern office setting with dark background, bright screens, and sleek furniture, creating a futuristic and high-tech atmosphere
+ 4: 32.02% | processed_014049.mp4 | movie still sci-fi, 1machine human-like form with sharp-tipped arms, machine's face with oval eyes and slightly ajar mouth, profile view showing pointed arm tips, full-body view of machine with sharp-tipped arms in motion, gray wall with white baseboard background, neutral atmosphere, mystery and intrigue
+ 5: 31.80% | processed_001757.mp4 | A short video of a person typing on a computer keyboard. The hand is shown curled around the keys at first, then relaxing and straightening into a more natural position over time. A plain white background surrounds the keyboard, with no indication of time or place.
+ 6: 31.80% | processed_012409.mp4 | unreal engine 5 render, 3 identical machines (purple, blue, green), machines with open mouths, engaged in conversation, unique personalities through distinct colors, surrounded by labels reading "Machine Learning", "Play into the main network", etc., underwater setting, gradient background transitioning from blue to purple, sea anemones and fish swimming nearby
+ 7: 31.62% | processed_000141.mp4 | A photo sequence showing a single red apple being cut in half by a knife. The frames show the apple whole and then cut, with varying lighting and a blurred background throughout.
+ 8: 31.57% | mixkit_v2_02160.mp4  | Conceptual video of fitness lifestyle and get slim
+ 9: 31.49% | processed_007119.mp4 | photorealistic video clip, 1black car with silver rims driving through parking lot, sleek black vehicle moving in a smooth arc across gray pavement, silver wheels reflecting sunlight, slight blur from motion, consistent camera angle capturing the car's progression, empty parking lot with white walls, gray asphalt, calm and serene atmosphere, realistic visual style, steady lighting
+10: 31.41% | processed_009390.mp4 | artistic video clip, abstract figure with swirling lines and shapes, close-up view of abstract figure in shades of black against a white background, occasional white specks adding depth and texture; broader perspective showing interaction with partial human figures and objects; wider view including vehicles and buildings providing context, urban cityscape with modern architecture, dynamic street life, neutral color palette
+
+
+==================================================
+
+=== PROMPT: "A pretty girl playing under the cherry blossom tree, dynamic motion." ===
+
+--- MODEL: sentence-transformers/all-MiniLM-L6-v2 ---
+TIME: 0.1648s
+ 1: 67.07% | processed_036611.mp4 | professional photo, movie still, close up photo, 1girl dancing under cherry blossom tree, young girl in casual white t-shirt and blue shorts mid-dance surrounded by vibrant pink flowers of a blooming cherry blossom tree her body poised in different stages of movement throughout the sequence, outdoor setting sunny day clear blue sky springtime dynamic atmosphere
+ 2: 62.19% | processed_005869.mp4 | A young girl is dancing under a tree in a serene outdoor setting. She's wearing a white dress and holding a pink balloon. The scene is bathed in soft natural light with lush green trees surrounding her on a red blanket. The atmosphere is peaceful and idyllic.
+ 3: 57.15% | processed_019238.mp4 | professional photo, 1girl cherry blossom, young woman with long dark hair and stylish ensemble walking confidently through a park filled with lush greenery and delicate pink blossoms, her face turned towards the camera in the first frame, from behind in the second, close-up of her face and upper body in the third and fourth frames showing her expressive posture and features, serene spring park setting with cherry blossom trees, soft natural light, inviting atmosphere
+ 4: 56.98% | processed_016865.mp4 | movie still, 1girl surrounded by cherry blossom trees, young woman with dark hair wearing yellow jacket and beige shorts, arms crossed behind her back (frame 1), laughing with hands on hips (frame 2), staring thoughtfully into distance with hands on knees (frame 3), striking a playful pose with arms raised high above her head (frame 4), vibrant naturalistic colors, dynamic lighting, captivating sequence of actions and expressions, serene backdrop of pink cherry blossom trees under clear blue sky
+ 5: 56.89% | processed_019241.mp4 | photorealistic image, 1woman gold dress cherry blossom trees, young woman with long hair and bright smile walking on a winding path with her left leg extended forward and right arm relaxed by her side, surrounded by delicate pink cherry blossoms that add a touch of nature's charm to the scene, her posture and expression subtly changing as she moves, serene spring wonderland serene path lined with cherry blossom trees soft pink backdrop gentle sunlight warm atmosphere ukiyo-e inspired style low angle view
+ 6: 55.67% | processed_026464.mp4 | anime-inspired image, 1blonde woman cherry blossom, confident blonde anime girl with long hair standing tall arms crossed over chest red accents on green and white outfit determined expression looking straight at viewer in first frame, transforming into humanoid figure running swiftly with second frame, flying through air with third frame maintaining confident stance throughout, idyllic Japanese landscape backdrop of cherry blossom trees clear blue sky serene atmosphere peaceful scenery
+ 7: 54.73% | processed_023507.mp4 | cinematic photo, 1girl and cherry blossom trees, young girl in pink school uniform looking off to the side with curiosity, then directly up towards us with a hint of contemplation, finally looking down at the ground with an expression suggesting sadness or regret, surrounded by lush greenery and vibrant pink flowers, springtime setting outdoors beneath clear blue sky with warm sunlight filtering through cherry blossom branches serene peaceful atmosphere
+ 8: 54.43% | processed_032264.mp4 | animated video, 1girl young dancer performance, young girl with long brown hair and bangs wearing a white blouse dancing amidst trees and other characters, conveying energy and enthusiasm, detailed facial expressions, dynamic movement, vibrant colors, contrasting against lush green hillsides and tree arrays, suggesting progression in her performance, natural scenery with diverse landscapes, including hillsides and forests, with a lively atmosphere set among variously colored backgrounds
+ 9: 54.27% | processed_023258.mp4 | professional photo, 1girl and cherry blossom, young girl with a big smile holding a single pink cherry blossom in her hand, looking up at it with wonder, surrounded by soft focus background of blooming cherry blossoms, delicate pink petals unfurling to reveal intricate patterns and structures, gentle spring breeze rustling the leaves, warm sunlight casting a golden glow on the scene
+10: 54.04% | pexels_v2_02156.mp4  | A vibrant young girl dances joyfully in a rainbow-hued, ruffled skirt, radiating pure delight. Her whimsical unicorn headband complements her playful spirit against the wooden backdrop. With infectious energy, she twirls and points, captivating her surroundings in this photorealistic 4K moment. Sunshine bathes the scene, creating a whimsical, dreamlike atmosphere, echoing themes of childhood joy and imagination, reminiscent of a youthful pop star in a fantasy world.
+
+
+==================================================
+
+=== PROMPT: "A cat playing in the bathtub" ===
+
+--- MODEL: sentence-transformers/all-MiniLM-L6-v2 ---
+TIME: 0.1548s
+ 1: 57.02% | mixkit_v2_01229.mp4  | Cat playing with ball
+ 2: 52.86% | mixkit_v2_03774.mp4  | Wild cat swimming in a river
+ 3: 51.03% | mixkit_v2_01256.mp4  | Kitten playing with ball
+ 4: 50.95% | mixkit_v2_01247.mp4  | Playful kitten under the couch
+ 5: 50.53% | pexels_v2_00770.mp4  | A ginger tabby cat in a cozy home setting bathes in sunlight, giving off serene vibes as it blinks sleepily. The warm tones and content feline capture the #CatsOfInstagram trend.
+ 6: 50.15% | mixkit_v2_01364.mp4  | Cute cat at living room
+ 7: 49.63% | pexels_v2_00758.mp4  | A curious ginger cat plays peekaboo under a bench in a soft, muted setting, igniting a cozy, whimsical vibe that's purr-fect for the 'cottagecore' trend. 🐱💕
+ 8: 49.62% | pexels_v2_00810.mp4  | A mischievous kitten plays a captivating game of paw and seek with a fluttering ribbon, set against cozy indoor hues. #CutenessOverload #KittyAntics
+ 9: 49.62% | pexels_v2_01330.mp4  | A playful tabby cat basks in the sun-drenched grass, frolicking with carefree whimsy in a verdant garden oasis.
+10: 49.25% | mixkit_v2_06425.mp4  | Cat in an animal shelter cage
+
+
+==================================================
+
+=== PROMPT: "cartoon for science fair" ===
+
+--- MODEL: sentence-transformers/all-MiniLM-L6-v2 ---
+TIME: 0.1581s
+ 1: 56.14% | processed_032952.mp4 | cartoon image, 1 cartoon monster pumpkin face leafy body, leafy body composed of leaves glowing softly orange and yellow lights surrounding it, standing up from seated position on rock transitioning to walking towards viewer with glow shining ahead, dark night sky scattered trees and rocks warm orange and yellow light atmospheric fantasy style vibrant colors dreamy atmosphere centered composition
+ 2: 54.51% | processed_012875.mp4 | cartoon image, 1 cartoon character confident and unsure, character with pink and white fins and tail, wearing glasses in first frame, standing with arms on hips in second frame, crouching down in third frame; chalkboard background with changing text, blue chalkboard and black chalk, educational setting, comedic atmosphere
+ 3: 52.94% | processed_024970.mp4 | cartoon image, 1mouse with sign that reads "CATS SUCK", anthropomorphized mouse wearing a determined expression holding a cardboard sign with bold black letters and a red background standing on a blue floor in front of a white wall with varying backgrounds and poses throughout the sequence, simple colorful environment indoors bright lighting humorous atmosphere comedic tone cartoonish style low angle view
+ 4: 52.84% | processed_038314.mp4 | movie still sci-fi, 1greenfrog multiple purplebubbles identicalgreengoals, adorned pink bubbles on back white spots on legs standing alone on black surface then surrounded by multiple purple bubbles, finally joined by group of identical green frogs, black surface with gradient of purple bubbles scattered throughout creating immersive and dreamy atmosphere
+ 5: 52.68% | processed_038497.mp4 | animated cartoon image, 1main character Spongebob Squarepants, Spongebob in a dynamic pose with yellow body, orange spots, and black shoes facial expression varies across frames holding objects around him, blurred city street or indoor room setting vibrant colors dreamy atmosphere stylized cartoon style high-contrast composition
+ 6: 52.58% | processed_020102.mp4 | cartoon image, 1 orange cat with blue mane and purple cape, cat seated on rock looking out over river filled with bubbles, holding fishing rod in second frame, catching fish in third frame, leaping off rock into water in fourth frame, fully submerged in water in fifth frame, emerging from water with fish in mouth in sixth frame, peaceful outdoor setting with serene river and rocky surroundings, warm sunlight filtering through trees, gentle breeze rustling leaves
+ 7: 52.38% | processed_031636.mp4 | cartoon image, 1 mouse gray white fur brown donut sprinkles, mouse holding onto brown donut with sprinkles on top dynamic posture in each frame another mouse and brown bag of chips introduced in later frames window appears in the background, indoors homey atmosphere cartoonish style flat perspective
+ 8: 51.71% | processed_030956.mp4 | cartoon image, 2 cartoon characters with plants and flowers, 1 character wearing blue and yellow outfit standing next to purple flower, holding small green plant; 2nd character wearing orange and pink outfit interacting with red flower; 1st character picking up yellow ball from ground, holding it again; both characters standing together, each clutching small plant, vibrant green hill outdoors cartoon style bright colors loose brush strokes
+ 9: 51.70% | processed_038465.mp4 | cartoon animation, 1 cartoon bunny orange background with yellow flowers, charming black and white cartoon bunny with pink nose standing on hind legs, then jumping, sitting comfortably, and finally relaxing on all fours with eyes closed throughout the sequence; vibrant fur texture and expressive facial expressions, vibrant orange and yellow floral patterned background warm atmosphere playful and carefree tone
+10: 51.57% | processed_009187.mp4 | animated cartoon photo, 1bear forest, blue-furred bear with large ears and small nose standing on hind legs, then sitting down holding a pink flower in frame 2, then walking towards blue trees in frame 3, then looking up at something in the sky in frame 4, forest setting with pink and blue leaves, soft ethereal atmosphere, possible twilight or dawn time of day
+
+
+==================================================
+
+=== PROMPT: "A sports car running fast to the futuristic city." ===
+
+--- MODEL: sentence-transformers/all-MiniLM-L6-v2 ---
+TIME: 0.1659s
+ 1: 62.92% | processed_007247.mp4 | realistic photo, 1black Mercedes-Benz sports car speeding through city streets, sleek black vehicle with sporty tires, red brake lights, and a unique spoiler design, moving swiftly around a corner past a building and trees in the background, capturing the dynamic movement of the car, urban setting, city street with buildings and trees, evening light, dynamic atmosphere, high-speed action, close-up shot, detailed car features
+ 2: 61.87% | processed_003800.mp4 | A speeding red sports car drives down a busy city street. The road is lined with tall buildings and trees on one side. In the background, a modern building with a red roof stands out near an intersection where a bus and other cars pass by a traffic light under bright sunlight.
+ 3: 61.77% | processed_037569.mp4 | movie still, 1silver sports car, a gleaming silver sports car speeding down a bustling city street with a trail of anticipation behind it, then a side view of the car maintaining a steady pace amidst busy traffic, finally a glimpse of the back end of the car further down the road, a typical urban street lined with buildings that fade into the distance under a clear blue sky adding a sense of calmness to the otherwise bustling environment precise positioning of the car and other elements creating a smooth transition between frames, silver sports car speeding down city street leaving behind anticipation, then side view maintaining steady pace amidst traffic, finally back end further down road as if time has passed capturing journey culmination
+ 4: 61.09% | processed_019982.mp4 | movie still sci-fi, 1futuristic car sleek orange and black paint job, futuristic sports car driving on highway towards right camera following behind with slight zoom in each frame buildings and cars passing by in background, high-tech city setting urban landscape with sharp angles and lines vibrant blue and orange tones futuristic atmosphere extreme wide shot high contrast cinematic photo
+ 5: 60.43% | processed_027816.mp4 | movie still, 1red sports car wet city street, sleek red sports car with headlights on driving along a wet city street at night, neon lights and billboards in the background, rainwater reflecting off the road and nearby buildings, the car's position changes as it drives along the street, suggesting motion and speed; the first frame shows the car in the foreground, appearing larger due to its proximity, while in subsequent frames, the car recedes into the background, decreasing in size but maintaining a presence throughout the sequence, city street at night, wet from recent rainfall, neon lights reflecting off the rainwater, dark skyscrapers and buildings looming in the background
+ 6: 59.47% | processed_025290.mp4 | movie still sci-fi, 1futuristic sports car speeding along highway, sleek blue and black aerodynamic design tires screeching as it speeds by blurred background cityscape with tall buildings neon lights, city street at night urban landscape dark skyscrapers vibrant colors mysterious atmosphere cinematic wide-angle shot
+ 7: 59.30% | processed_024479.mp4 | professional photo, futuristic cityscape sports car, sleek silver sports car with red stripe polished surface reflecting city lights and raindrops positioned in center of frame, recent rainfall slick road distant towering buildings silhouettes punctuated by glowing lights dark clouds streaks of lightning above, futuristic city nighttime rainy atmosphere cyberpunk aesthetic high contrast cinematic photo
+ 8: 58.71% | processed_007489.mp4 | realistic photo, sleek black sports car with five doors and distinctive red taillights, modern sports car parked in a gray parking lot, shiny exterior reflecting the overcast sky above, driving towards an unseen destination with clear sky, stopped again mirroring its initial position, overcast gray parking lot with modern buildings in the background, cloudy weather changing to fair weather across frames
+ 9: 58.39% | processed_020875.mp4 | high-speed racing photo, 2 white sports cars racing, car with number 70 and red stripe on side leading car with number 60 and black stripe in background both cars blurred wheels moving past stationary vehicles on highway trees lining sides of highway buildings in distance, sunny day highway landscape lush greenery surrounding asphalt blur motion atmosphere fast-paced thrilling high-speed racing sports cars intense competition extreme close-up shot professional photo cinematic feel realistic depiction
+10: 58.13% | processed_026936.mp4 | cinematic photo, 3sports cars night drive, three sleek high-performance sports cars a black car silver car and white car each with unique design moving through city streets at night the first car positioned in center drawing viewer's attention with dark color contrasting against city lights the second car located to left of first car also moving towards right its silver color shining under city lights adding touch of elegance to sporty design the third car driving on same street but moving in opposite direction towards left side of image its bright white color standing out against night background and adding sense of motion to scene, city street alive with glow of street lights and buildings creating backdrop that emphasizes cars' speed and agility buildings tower over scene their windows twinkling like stars in urban sky, night cityscape dark skyscrapers streetlights neon signs urban sky clouds high-performance sports cars speeding through streets realistic photorealistic style close-up view focused on cars low-angle shot emphasizing movement and excitement
+
+
+==================================================
+
+=== PROMPT: "Two tribal women kissing each other." ===
+
+--- MODEL: sentence-transformers/all-MiniLM-L6-v2 ---
+TIME: 0.1649s
+ 1: 56.47% | processed_005103.mp4 | Two women in traditional Indian clothing, adorned with intricate patterns and headpieces, share a warm moment together. One reaches out to touch the other, while they both smile at the camera, looking down and then up. A cozy restaurant setting provides the backdrop for their special occasion celebration.
+ 2: 53.69% | processed_005230.mp4 | Two women in traditional Indian clothing, wearing white dresses with vibrant red and yellow scarves, stand together in a cozy indoor setting. They are smiling warmly at each other, holding hands or arms, as they share a tender moment against a neutral beige backdrop.
+ 3: 50.19% | processed_005171.mp4 | Two women celebrating Diwali together. One is a traditional Indian woman with ornate jewelry and intricate designs, holding an infant on her back near a statue of Durga. The other woman is modern, curious about a nearby object, surrounded by bright decorations, warm lighting, and vibrant colors, evoking a festive atmosphere.
+ 4: 49.64% | processed_004886.mp4 | Two Indian women in colorful clothing are chatting with each other. They're sitting outside a bustling market, surrounded by vibrant fabrics and lively sights. One woman is using hand gestures to emphasize her point, as candles flicker on a nearby table. Warm sunlight shines down on the scene, creating a lively atmosphere.
+ 5: 49.38% | processed_002842.mp4 | Two women enjoying each other's company on a sunny day in a quiet park. A young woman with long brown hair is smiling and gently touching the face of an older woman with short blonde hair, both wearing white tops as they sit together on a bench surrounded by lush greenery under soft sunlight.
+ 6: 47.23% | mixkit_v2_03988.mp4  | Silhouette of a kissing couple
+ 7: 47.15% | processed_004934.mp4 | Two women in traditional Indian attire dance together in a lively outdoor performance. They wear vibrant red and gold saris and ornate headpieces. The rustic setting and natural light create a warm ambiance, as they move in perfect synchrony amidst a festive atmosphere under a large tent.
+ 8: 46.94% | processed_006651.mp4 | Two young Native American women in traditional clothing are captured in a serene outdoor setting. One sits while the other stands behind her, placing a hand on her shoulder. Rich red tops and long black hair with feather headdresses are prominent features, set against a backdrop of lush trees and foliage.
+ 9: 46.43% | processed_005499.mp4 | Two women engaged in a lively conversation, standing close together and facing each other. They're surrounded by warm candlelight, casting gentle shadows on their faces. A small table with soft lighting is visible behind them. The scene feels intimate and inviting.
+10: 46.29% | mixkit_v2_03260.mp4  | Couple making funny faces and kissing
+
+
+==================================================
+
+=== PROMPT: "Once upon a time, deep in the heart of a lush jungle, there lived a mysterious witch named Seraphina. She was known for her enchanting beauty and unmatched powers, hidden away from the prying eyes of the villagers who lived on the outskirts of the jungle. Seraphina had long, flowing hair that resembled the vines of the jungle, and her eyes sparkled like the stars on a clear night. One day, a curious young girl named Mia ventured into the jungle, drawn by tales of the witch's magic. As she wandered through the vibrant greenery, she stumbled upon Seraphina's hidden home—a small, cozy cottage draped in colorful flowers and surrounded by the melodies of singing birds. Feeling both terrified and intrigued, Mia knocked on the door. To her surprise, Seraphina welcomed her with a warm smile. The witch had a fondness for children and often helped those in need. She offered Mia a place to sit and shared stories of her adventures and the wonders of the jungle. Mia listened in awe, but soon, she noticed something strange. The jungle was filled with whispers of sadness, and animals wandered aimlessly, hurt and confused. Instinctively, Mia asked Seraphina about the plight of the jungle. The witch sighed, revealing that a dark spell had been cast by a rival sorcerer, causing the harmony of the jungle to crumble. Determined to help, Mia proposed a plan to break the spell. Together, they set off on a quest to find the ingredients for a powerful antidote. They navigated through thickets and streams, encountered magical creatures, and gathered rare herbs, with Mia’s bravery shining bright. After days of searching, they returned to the cottage, where Seraphina combined the ingredients into a bubbling potion. With a wave of her hand and a chant, the spell was broken, and life surged back into the jungle. Colors brightened, animals danced joyfully, and harmony was restored. Mia returned home with a heart full of courage and a promise to protect the jungle. Seraphina waved goodbye, knowing she had made a new friend and that the bond between them would last forever. From that day on, the stories of the witch and the brave girl echoed through the jungle, reminding everyone that friendship and courage could conquer the darkest spells." ===
+
+--- MODEL: sentence-transformers/all-MiniLM-L6-v2 ---
+TIME: 0.2118s
+ 1: 53.53% | mixkit_v2_03827.mp4  | Raven looking around in a tree
+ 2: 52.23% | processed_027786.mp4 | movie still, 1girl fantasy forest walk, young girl with blonde hair in black outfit walking forward face turned towards us eyes following camera gaze expression curious and determined hands by her sides holding small bag of some sort, her hair blowing slightly in the breeze leaves rustling around her feet as she walks through the forest tall trees with green leaves fading into dark blue background creating an otherworldly atmosphere, ethereal fantasy forest glowing mushrooms or luminescent plants surrounding her eerie quietness and misty air atmospheric and mystical setting style reminiscent of Hayao Miyazaki painterly brushstrokes vibrant colors soft focus dreamlike quality.
+ 3: 52.16% | processed_035244.mp4 | cinematic photo, 1girl mysterious forest, young girl with blonde hair looking at something unseen her expression is one of mystery and wonder she's lost in thought or deep contemplation her eyes are fixed on a point ahead of her, intricate details of her face and features beautifully rendered her skin is smooth and creamy her eyebrows are slightly raised giving her an air of curiosity her lips are pressed together as if in concentration her posture is relaxed yet alert as if she's waiting for something to happen, forest environment illuminated by the warm glow of golden leaves that add an ethereal ambiance to the setting the background is artistically blurred drawing attention to the girl and creating a sense of depth
+ 4: 51.86% | pexels_v2_01422.mp4  | In a cozy, sunlit room, a focused young girl with long, dark hair delicately applies color to her artwork, her brow furrowed in concentration. Beside her, a nurturing figure, perhaps her mother, gently guides her hand, their connection evident. The warm, photorealistic atmosphere enhances the rich palette of markers lying scattered, evoking a sense of playful creativity. Laughter and whispers linger in the air, encapsulating a tender moment of discovery and bond. Overall, a poignant theme of childhood innocence thrives, reminiscent of the heartfelt works of Hayao Miyazaki.
+ 5: 50.83% | processed_021419.mp4 | photorealistic image, 1woman alone in forest, young woman with long brown hair and green dress standing amidst trees looking at a small white flower on the ground then up at the stars then down at a fallen leaf on the ground expression of wonder and curiosity throughout, enchanting forest setting dark sky with stars early morning or late evening atmosphere misty foggy air mystical woodland scene
+ 6: 50.30% | processed_021938.mp4 | cinematic photo, 1woman mystical journey, young woman with long hair and flowing white dress looking up at a tree with glowing blue leaves, then walking away from it towards another tree in the distance, later running towards a group of trees surrounded by blue lights, finally reaching the trees with blue lights all around her, blue light emanating from within trees, glowing leaves, woman's long hair and flowing white dress, subtle facial expressions throughout the journey, sense of wonder and mystery, dark forest at night with occasional blue lights scattered throughout, mysterious atmosphere, eerie silence
+ 7: 50.23% | processed_028358.mp4 | movie still, 1girl and fantasy jungle, young girl with brown hair smiling and looking satisfied, running in the background a blurred image of trees and foliage, close-up of girl's face showing happiness and accomplishment, her eyes shining with excitement, jungle environment with dense greenery, exotic flowers, and ancient trees, warm and muted color palette, dreamlike atmosphere, animation-inspired style
+ 8: 50.03% | pexels_v2_01758.mp4  | In a golden embrace of sunlight, a young girl in a vibrant, floral dress hides her eyes, embodying innocence and curiosity. Shadows play around her as a friend twirls in the background, laughter suspended in the air. The warm glow creates a nostalgic, dreamlike ambiance, enhancing the theme of playful discovery. A picturesque snapshot, reminiscent of a whimsical children's storybook, evokes joy and wonder.
+ 9: 49.88% | processed_015318.mp4 | mystical photo, 1woman ethereal wings, tall woman long black hair flowing black dress standing still amidst whispering trees wings fully unfurled and spread wide delicate outlines stark against sky and foliage gaze directed off to the side, long black hair cascading down back flowing black dress billowing slightly suggesting gentle breeze surrounding forest dense with towering trees leaves vibrant green blue sky peeking through canopy providing serene backdrop tranquil atmosphere frozen in time mystical woodland scene, dense forest towering trees reaching high into sky leaves forming natural tapestry around woman blue sky in distance adding depth to scene hinting at expansive world beyond immediate forest seclusion and tranquility enhancing mystical atmosphere
+10: 49.65% | processed_028868.mp4 | movie still, 1woman mystic forest journey, middle-aged woman with long curly hair and kind eyes wearing a vibrant green dress and matching hood holding a glowing orb gazing directly at the camera with a subtle smile standing amidst towering trees, she holds a glowing orb its radiant light illuminating her face as she navigates through the dense foliage, her figure growing smaller as she moves further away from the foreground in the second frame, partially hidden by the trees adding an element of mystery and anticipation as she disappears into the shadows in the third frame, standing once again in the open area of the forest with her gaze directed away from the camera towards a destination unknown to us, mystical forest lush green color palette varying shades adding depth and realism to the environment warm sunlight filtering through the trees, gentle breeze rustling the leaves, soft focus effect enhancing the dreamy atmosphere, centered rule of thirds composition, cinematic wide-angle shot, realistic style
+
+
+==================================================
+
+=== PROMPT: "A young anime guy with blue hair walking in the school hall." ===
+
+--- MODEL: sentence-transformers/all-MiniLM-L6-v2 ---
+TIME: 0.1641s
+ 1: 49.82% | processed_022851.mp4 | anime style video, 1boy blonde hair confident determination, blonde-haired man standing assertively with hands on hips, then striding towards right side of image in motion, donned in black leather jacket, walking away from us towards left side of image, city street lined with buildings under blue sky urban backdrop
+ 2: 48.49% | processed_000294.mp4 | A young man in his teens with a determined look walks across a dimly lit room. He wears a black leather jacket and jeans, with dark messy hair framing his face. A dark blue background and red lights on the floor create a moody atmosphere.
+ 3: 48.18% | processed_024263.mp4 | professional anime-style image, 1boy blue outfit intense battle stance, youthful boy with determined expression piercing eyes gripping sword ready for combat wearing signature blue and white attire against a clear sky background his right hand holding the hilt of the sword his left arm relaxed by his side his gaze fixed intently on an unseen opponent, outdoor setting vast expanse of sky behind him no other objects or characters visible in the frame bright sunlight casting no shadows extremely detailed artwork anime-inspired style
+ 4: 47.85% | processed_024830.mp4 | anime-style image, 1boy with spiky hair and red earrings holding a red gem, young boy with confident expression and dynamic poses, showcasing various emotions through subtle changes in facial expressions and body language, holding a glowing red gem in his right hand which signifies power or authority, open grassy plain under a blue sky dotted with white clouds, transforming into a dark blue sky with white lightning bolts illuminating the scene
+ 5: 47.32% | processed_002180.mp4 | A young man with messy brown hair walks along a city street. He wears jeans and a black t-shirt. The scene is captured in several frames as he looks back over his shoulder, walking in different directions against a consistent urban background.
+ 6: 46.98% | processed_001353.mp4 | A young man in his teens, with messy brown hair and blue eyes, is running down a long indoor corridor. He's dressed in casual athletic wear and has his arms outstretched to the sides as he moves mid-stride. The scene is lit by soft fluorescent lighting, creating a calm atmosphere.
+ 7: 46.30% | processed_016968.mp4 | anime-style image, 1boy pink hair black outfit, male anime character striking pink hair dressed in a black outfit with neutral expression in first two frames, concerned look in third frame, and surprised reaction in fourth frame varying facial expressions across the sequence, dark blue background brick walls on either side consistent setting stable context for the character's actions
+ 8: 46.21% | processed_023340.mp4 | movie still sci-fi, 1boy transformation into anime character, young man formal black suit tie digital manipulation white hair futuristic blue-striped suit headphones focused expression, gradual transformation into anime-style character, single location office setting consistent background minimalist style high-contrast lighting cinematic atmosphere centered rule of thirds
+ 9: 45.60% | processed_031126.mp4 | anime style image, 1young man and bus, dark-haired young man with expressive blue eyes wearing a white shirt with red stripes on the sleeves, backpack slung over one shoulder, standing alone on a sidewalk in the first frame; same setting as second frame but on opposite side of street moving in same direction as bus; third frame shows same scene with young man now crossing street at similar pace to bus; fourth frame shows young man again standing alone on sidewalk near building, city street setting urban atmosphere, busy street corner with passing bus dynamic movement and blurred wheels vibrant colors anime style
+10: 44.94% | processed_000684.mp4 | A young adult male with messy brown hair looks up in wonder. His bright blue eyes are fixed on something unseen, a hint of curiosity on his face. The background is dark and blurry, while he stands out against a warm, cinematic glow.
+
+
+==================================================
+
+=== PROMPT: "A butterfly in the enchanted forest" ===
+
+--- MODEL: sentence-transformers/all-MiniLM-L6-v2 ---
+TIME: 0.1573s
+ 1: 67.88% | mixkit_v2_03517.mp4  | Beautiful butterfly standing on a leaf
+ 2: 65.80% | mixkit_v2_01413.mp4  | Butterfly on a sunny day
+ 3: 65.03% | processed_001037.mp4 | A colorful butterfly is in flight over a rugged, rocky landscape. Its vibrant red and orange wings are spread wide against a backdrop of purple and blue hills. The scene is serene, with warm sunlight casting shadows, capturing a sense of peaceful movement amidst the natural beauty of the terrain.
+ 4: 64.53% | processed_001814.mp4 | A colorful butterfly with large purple wings rests on a green flower in a serene outdoor setting. The surrounding leaves are a lush green and the warm sunlight casts a peaceful glow. In some areas, vibrant red and yellow hues add pops of color to the scene.
+ 5: 63.13% | mixkit_v2_01188.mp4  | Monarch butterfly standing in a flower
+ 6: 62.97% | mixkit_v2_00710.mp4  | Close up of a black butterfly with red fluttering in a red and yellow flower with green leaves.
+ 7: 62.95% | mixkit_v2_02662.mp4  | Butterfly perched on yellow flowers
+ 8: 62.85% | processed_030878.mp4 | professional photo, 1butterfly in flight, vibrant orange and black butterfly with white spots spread wings perched on brown post, then flying freely above green foliage and towering trees, main subject's wings closed in first frame suggesting rest, fully spread in second frame indicating freedom, soaring high in third frame showcasing mastery of environment, lush forest setting with towering trees and green foliage against a natural light atmosphere with warm colors
+ 9: 62.77% | processed_011099.mp4 | natural photo, white butterflies in flight around a tree, delicate white butterflies with transparent wings, spread wide as they flutter and dance in mid-air, surrounded by lush green leaves and branches of the tree, small rocks and twigs visible on the ground level, lush forest background, dappled sunlight filtering through the leaves, warm color palette, soft atmosphere, late morning or early evening setting
+10: 62.76% | processed_028473.mp4 | magical transformation photo, 1woman and 1butterfly, young woman in white dress with ruffled collar transforming into butterfly stretching arms reaching upwards wings unfolding intricate patterns structures spreading wide open, serene forest setting trees foliage backdrop consistent contrast to human-to-butterfly metamorphosis
+
+
+==================================================
+
+=== PROMPT: "a land goes into water to on water" ===
+
+--- MODEL: sentence-transformers/all-MiniLM-L6-v2 ---
+TIME: 0.1634s
+ 1: 55.27% | mixkit_v2_04480.mp4  | Water flowing down the rocks of a river in nature
+ 2: 54.37% | mixkit_v2_00381.mp4  | Water falling into a puddle in a forest.
+ 3: 53.77% | processed_001669.mp4 | A person jumps into the ocean, arms and legs entering the water first. The rest of their body follows, becoming fully submerged underwater. The image captures vibrant ocean life and dynamic movement, with a deep blue sea and realistic lighting that emphasizes the action and drama of the moment.
+ 4: 52.88% | mixkit_v2_00108.mp4  | Water runs between rocks, crashing as it lands
+ 5: 51.52% | mixkit_v2_06100.mp4  | Waterfall into a flowing river
+ 6: 50.66% | mixkit_v2_00928.mp4  | Small boat traveling in the water of a large turquoise blue lake, with islands and formations, and in the background large hills covering the bottom, seen from the sky.
+ 7: 50.57% | mixkit_v2_00089.mp4  | A small waterfall runs in the crevice of a cliff, it lands in a small pond.
+ 8: 50.57% | mixkit_v2_07498.mp4  | Some jets of water entering a cluster of water in slow motion, in a vertical shot very close to the surface.
+ 9: 50.31% | mixkit_v2_00440.mp4  | Turquoise sea with a water plane floating with the engines running in calm waters.
+10: 50.10% | mixkit_v2_00107.mp4  | Water runs between large rocks
+
+
+==================================================
+
+=== PROMPT: "A jellyfish floats near a coral reef in a serene, deep blue ocean." ===
+
+--- MODEL: sentence-transformers/all-MiniLM-L6-v2 ---
+TIME: 0.1589s
+ 1: 86.61% | processed_000578.mp4 | A jellyfish floats in a serene ocean environment. The translucent creature glows with a light blue hue, set against a backdrop of soft blue-green water. The scene is captured from close-up and wide-angle views, showcasing the delicate shape and form of the jellyfish as it drifts through the calm sea.
+ 2: 79.40% | processed_000941.mp4 | A delicate jellyfish floats near the surface of a dark and mysterious ocean. Its translucent body glows softly in the dim light, with intricate details visible as it gently spreads outwards with its long tentacles. A sense of ethereal beauty and wonder surrounds this underwater scene.
+ 3: 77.85% | processed_001978.mp4 | A group of four jellyfish float in a calm blue ocean. The translucent creatures have vibrant orange edges and are centered in the image. They seem to be gathered together in a serene underwater setting with no other objects or creatures present.
+ 4: 76.66% | processed_001925.mp4 | A serene underwater scene featuring jellyfish floating near the surface. Their soft yellow bodies glow in the dimly lit water as they move and change direction. The surrounding ocean is a deep blue with sunlight filtering down and gentle ripples on its surface.
+ 5: 76.65% | processed_000348.mp4 | A vibrant jellyfish glides through a coral reef in the ocean. The sun's warm light filters down, illuminating its translucent body as it swims among the colorful coral and schools of fish. A close-up view reveals intricate details on its delicate head.
+ 6: 76.54% | processed_001628.mp4 | A bright red jellyfish floats near the surface of a calm ocean. Its eight tentacles stretch out in all directions as it drifts over a rocky outcropping. The water is a soothing blue-green hue, and sunlight filters down from above, casting a serene ambiance over the underwater scene.
+ 7: 76.41% | processed_001229.mp4 | A group of jellyfish float upwards together in a dark blue ocean, their soft pinkish bodies glowing. Glowing lights shine up from beneath them, creating a sense of movement and progression. The scene has a dreamlike atmosphere, with an oceanic environment and vast expanse of water below.
+ 8: 76.14% | processed_000446.mp4 | A close-up photo of a delicate jellyfish floating in clear ocean water. Its long, thin body and eight soft light blue tentacles are suspended effortlessly, surrounded by subtle ripples. The transparent form glows with an inner structure, set against the deep blue of the surrounding sea. A peaceful atmosphere is captured in this serene underwater scene.
+ 9: 76.09% | processed_022615.mp4 | underwater scene, group of jellyfish, small yellow fish, jellyfish with vibrant red hue and intricate details floating near coral reef surrounded by darting fish their movements precise and lively, dark blue ocean background with coral debris atmospheric depth
+10: 75.01% | processed_001660.mp4 | A group of jellyfish float in the dark blue ocean, their glowing bodies shimmering in shades of orange, green, and purple. Some jostle and interact with each other, while others dart through the water, creating a mesmerizing underwater scene with vibrant colors and an enchanting atmosphere.
+
+
+==================================================
+
+=== PROMPT: "Greetings. We need a vertical video for 1 minute. The idea is this: the game "Matrix."" ===
+
+--- MODEL: sentence-transformers/all-MiniLM-L6-v2 ---
+TIME: 0.1618s
+ 1: 56.63% | mixkit_v2_02068.mp4  | 3D animation of a virtual world within the matrix, delving into the intricate web of information, virtual reality and futuristic processes.
+ 2: 51.99% | mixkit_v2_02880.mp4  | Vertical abstract video with some superimposed videos of book pages seen up close.
+ 3: 49.41% | mixkit_v2_07185.mp4  | Vertical video captures a young woman in futuristic attire, her sleek garments adorned with shimmering accents, as she wears a cutting-edge sci-fi vision device. With this advanced technology, she seamlessly maneuvers through the digital realm, her movements fluid and precise, commanding virtual landscapes with effortless grace.
+ 4: 47.45% | mixkit_v2_02875.mp4  | View to the sky in a vertical video, with some light clouds traveling with the wind, and the colors of the sky in gradient from white to blue.
+ 5: 46.47% | processed_018655.mp4 | cinematic photo, 1boy and pyramid, young man with confident expression standing on platform surrounded by blue and purple lights, then leaping into air with arms spread wide, hovering above pyramid-like structure, interacting with it, handsome young figure in mid-flight, vibrant colors of pyramid contrasting with him and surrounding lights, dramatic transition from standing to flying and interacting, pyramid-like structure amidst a backdrop of alternating blue and purple hues, adding depth and dimensionality, dynamic progression throughout sequence
+ 6: 46.40% | processed_026902.mp4 | cinematic photo, 1fox dynamic movement, brown and white fox standing upright on hind legs blurred brick wall background, mid-leap moment with body angled towards sky, landing on all fours against brick wall, final frame standing firmly on all fours, urban environment brick wall backdrop, dynamic energy and motion, realistic style low angle view
+ 7: 46.16% | mixkit_v2_06787.mp4  | Vertical video of the panorama of a huge city with large buildings and a lot of movement in its streets on a sunny afternoon from an aerial view.
+ 8: 46.02% | processed_017785.mp4 | animated video sequence, 1 person long hair purple shirt interacting with surroundings, person standing alone on grassy field looking forward with anticipation, person in front of futuristic cityscape building with glowing blue and green facade, person floating away from city on boat towards distant island or shoreline, person standing above boat looking down with surprise expression, natural outdoor settings, futuristic cityscape with towering buildings and advanced technology, water with motion and movement, dramatic shifts in setting and atmosphere
+ 9: 45.65% | mixkit_v2_00218.mp4  | Vertical video in slow motion of an urban man's silhouette that puts on a glasses in front of a blue light sign at a dark room. Urban neon lights with a man.
+10: 45.28% | processed_032692.mp4 | futuristic video game still, 1character vibrant pink and purple suit, adventurous pose with arms extended and legs in motion, surrounded by a blur of movement, wearing a bold and eye-catching outfit that stands out against the crowd, cityscape backdrop tall imposing metallic buildings reflective surfaces artificial lighting night sky above adding mystery and anticipation
+
+
+==================================================
+
+=== PROMPT: "zombie walking in the distance down a long, foggy, gravel road" ===
+
+--- MODEL: sentence-transformers/all-MiniLM-L6-v2 ---
+TIME: 0.1627s
+ 1: 65.48% | mixkit_v2_04936.mp4  | Scary zombie walking towards the camera
+ 2: 65.36% | mixkit_v2_00346.mp4  | The silhouette of the feet of a zombie walking in a puddle in an abandoned building.
+ 3: 63.59% | mixkit_v2_04939.mp4  | Zombie prowling the corridors of a dark and abandoned hospital, with slow and wandering steps.
+ 4: 60.43% | mixkit_v2_05999.mp4  | Scary pack of zombies stumbling slowly towards the camera
+ 5: 60.11% | mixkit_v2_05995.mp4  | Terrifying group of zombies walking in a pack through smoke
+ 6: 59.66% | mixkit_v2_04918.mp4  | Bloody zombie walking slowly down the corridor of a mental hospital on a Halloween night.
+ 7: 59.56% | mixkit_v2_04935.mp4  | Wandering walking of a zombie male nurse
+ 8: 53.92% | mixkit_v2_06000.mp4  | Zombies with red glowing eyes stumbling through the smoke
+ 9: 52.52% | mixkit_v2_03868.mp4  | Walking through the graves of a creepy cemetery
+10: 52.30% | mixkit_v2_04927.mp4  | Bloody zombie in an abandoned place, breathing and staring furiously and starving.
+
+
+==================================================
+
+=== PROMPT: "Video of end-of-year holiday greetings from the Astra Honda Motor labor union" ===
+
+--- MODEL: sentence-transformers/all-MiniLM-L6-v2 ---
+TIME: 0.158s
+ 1: 54.15% | mixkit_v2_04417.mp4  | Happy family greeting at the camera on Christmas
+ 2: 52.17% | pexels_v2_00508.mp4  | Channeling holiday cheer, this video captures the effervescence of celebration with champagne toasts among warmly lit festive decor. #HolidayVibes 🥂✨
+ 3: 48.12% | mixkit_v2_02616.mp4  | Title video with Christmas decorations concept
+ 4: 47.46% | processed_006164.mp4 | A series of four photographs showing a festive sign that reads "HAPPY HANUKKAH 2020". The sign is lit up in each picture, with partial text visible at first and gradually revealing more words as the images progress.
+ 5: 46.28% | mixkit_v2_02605.mp4  | Background Christmas video
+ 6: 46.06% | pexels_v2_00097.mp4  | A heartwarming exchange of Christmas gifts unfolds, featuring a serene, joyous ambiance, soft lighting, and festive twinkling lights. The video captures the spirit of the season in warm hues.
+ 7: 45.51% | mixkit_v2_06663.mp4  | Three funny Santa Clauses waving at the camera on christmas day
+ 8: 45.26% | mixkit_v2_03481.mp4  | Christmas concept title video with trees and gifts
+ 9: 44.69% | mixkit_v2_01516.mp4  | Happy family celebrating Christmas
+10: 44.63% | processed_007885.mp4 | four-part image sequence, 1man dressed as Santa Claus in red car, Santa Claus wearing black suspenders and white gloves, driving red car through busy street, switching seats, looking out window with festive Christmas tree background throughout all four frames, indoors/outdoors not specified, modern day, holiday season atmosphere, realistic style, medium close-up camera angle
+
+
+==================================================
+
+=== PROMPT: "Princess Leia not wearing clothes and showing off her sensitive spot and breasts." ===
+
+--- MODEL: sentence-transformers/all-MiniLM-L6-v2 ---
+TIME: 0.1622s
+ 1: 42.65% | processed_034870.mp4 | movie still, 1girl and 1boy and 1girl and 1boy, Princess Belle in black outfit worried expression looking off-frame, Princess Jasmine in vibrant yellow dress concerned face looking off-frame, Ariel swimming in green tail pink top flowing blonde hair, Tiana in black dress red hair worried expression looking off-frame, four Disney princesses in different poses and expressions anticipating unknown danger, each character's facial expression reflecting worry and concern for the future, stark contrast between their fantastical elements and urban setting, urban cityscape with towering buildings blue sky daytime realistic style low angle view centered rule of thirds
+ 2: 40.78% | processed_017650.mp4 | movie still, 1woman sitting on refrigerator with legs crossed, Isa Fisher wearing white dress with holes on chest and stomach area in first frame, then white bra and panties, followed by white corset with plunging neckline, and finally similar white dress without holes; long red hair cascading down her shoulders and direct gaze at camera throughout all frames, confident demeanor and radiant smile consistent across all frames; neutral expression and intense look into the camera in some frames; long red hair flowing down her shoulders matching intensity of her gaze; detailed facial expressions, body language, and clothing, kitchen setting with refrigerator as primary focus; simple, clean background; cold tone and moderate lighting throughout all frames
+ 3: 39.68% | processed_038009.mp4 | movie still, 1girl and a charming pink dress, Barbie Hsu in various poses showcasing flexibility and range as an actress dressed in a charming pink dress with clear blue sky behind her striking confident pose with one hand resting on her hip tossing a drink into her mouth walking towards the camera sitting on the rooftop railing, rooftop setting bathed in soft daylight clear blue sky occasional clouds relaxed posture suggesting end-of-day wind-down or contemplation
+ 4: 39.59% | processed_022533.mp4 | movie still, 1girl in white strapless top and bunny ears, young actress wearing white strapless top with loose blonde curls and bunny ears attached to her head, looking innocent and graceful, close-up of face with expressive features, slightly wider shots showing upper body and delicate physique, final frame set against dark background for striking contrast, whimsical fairy tale setting, likely indoors in a studio or on a soundstage, soft natural light, cinematic atmosphere
+ 5: 38.99% | processed_032128.mp4 | movie still, 1woman in multiple outfits, Priyanka Chopra wearing a white dress with plunging neckline and short sleeves, loose waves hair, standing confidently against a beige wall; Priyanka Chopra wearing a striking red gown with long sleeves and high neckline, leaning backwards against the same beige wall; Priyanka Chopra wearing a sleeveless white gown with long hair flowing down her back, standing with arms at her sides against the beige wall; Priyanka Chopra wearing a stunning silver dress with sweetheart neckline and short sleeves, leaning forward against the same beige wall, four different dresses showcasing versatility in acting style, confident poses, contrasting settings
+ 6: 38.84% | processed_029100.mp4 | movie still, 1girl in pink bodysuit, doll with vibrant red hair and striking blue eyes dressed in a pink bodysuit with purple accents sitting on different chairs - one pink and one purple - with slight differences in her posture across the frames, Krystal's pose varies subtly creating a dynamic visual progression throughout the sequence she can be seen sitting with her legs crossed or hands resting on her knees looking directly at the camera with a subtle expression, blue wall adorned with a white shelf a single lamp is mounted on the wall casting light that illuminates Krystal's visage warm and inviting atmosphere dreamy cinematic photo
+ 7: 38.77% | processed_028255.mp4 | movie still, 1woman dramatic scene, Mila Kunis wearing light blue denim jacket over white tank top concerned expression looking worried, Mila Kunis wearing crisp white shirt same concerned expression, Mila Kunis wearing light blue denim jacket again looking off-frame to the left, Mila Kunis wearing striking purple dress fixed gaze to the right side, stark white wall simple background dynamic poses and actions creating engaging visual story
+ 8: 38.61% | processed_002483.mp4 | A young woman is shown in four different scenes. She's wearing a pink bikini on a sunny beach with her arms raised high. Next, she's layered over the bikini in a black top. Then, she's dressed head-to-toe in a full-body suit, still standing on the same peaceful beach. The background remains calm and serene throughout.
+ 9: 38.56% | processed_036583.mp4 | movie still, 1woman and 1bunny, woman wearing vibrant blue top and white shorts standing with calm expression holding stuffed bunny initially dressed in pink top and matching shorts, later transforming into a white statue, woman's facial expression remaining the same across all frames, room with pink walls and beige flooring, subtle changes in woman's stance and pose throughout the sequence, bunny's transformation taking center stage, indoors, modern setting, calm atmosphere, soft focus, pastel color palette
+10: 38.35% | processed_016948.mp4 | movie still, 1woman and gun, Jessica Chastain wearing black shirt with vibrant red lipstick holding gun in one hand looking determined from chest up then closer to face then chest down, outdoor environment with blurred background, natural outdoor location urban setting with blurred details intense atmosphere, close-up shots of Jessica's face with serious expression and small details on her skin, blurred background emphasizing focus on her, outdoor lighting casting strong shadows cinematic composition
+
+
+==================================================
+
+=== PROMPT: "A young woman descended from wolves becomes a rebel wolf after being rejected by her mate." ===
+
+--- MODEL: sentence-transformers/all-MiniLM-L6-v2 ---
+TIME: 0.1666s
+ 1: 44.56% | processed_031822.mp4 | movie still sci-fi, 1woman and 1man dramatic transformation, young woman with long hair in elegant blue dress transforming into wolf-like creature biting man's neck, then retransforming back to human form standing confidently with hands on hips gazing at something within the frame, dark forest or abandoned city setting dark colors muted atmosphere ominous lighting rainy weather
+ 2: 44.10% | processed_014240.mp4 | professional photo, 1girl and 1wolf in nature, young woman with long black hair, determined expression, standing next to gray wolf with tilted head, both looking at each other; in another frame, woman has sad eyes, wolf looks thoughtful; in final frame, woman and wolf are laughing together, outdoors during the day, sunlight casting long shadows, highlighting details on woman's face and wolf's fur, peaceful atmosphere, serene landscape
+ 3: 42.12% | processed_026444.mp4 | movie still sci-fi, 1girl and 1boy transformation into wolf-like creature, young woman with blonde hair and piercing blue eyes transforming into a creature with wolf-like features - long legs, sharp claws, fur, pointed ears, yellow eyes; the first frame shows her as a normal human, standing against a beige wall adorned with a single painting; the second frame shows her hands disappearing, suggesting an increase in size or the emergence of new appendages; the third frame shows her entire form transformed into a wolf-like creature; the fourth frame shows the culmination of this transformation, indoors on a consistent beige wall background, dramatic lighting, cinematic atmosphere, extremely detailed, close-up shot, centered composition
+ 4: 42.01% | processed_022920.mp4 | movie still sci-fi, 1boy 2girls werewolf transformation sequence, young adult with striking red eyes sharp teeth transforming into a powerful werewolf, showing different stages of movement and emotion, close-ups of face and body in motion, another werewolf character present in the background, dark mysterious environment consistent throughout the sequence, emphasizing the werewolves and their actions
+ 5: 41.39% | processed_026942.mp4 | cinematic photo, 1girl and gray wolf on either side, young woman with brown hair wearing white tank top raising arms above head looking up, close-up view of face looking directly into camera, overall scene with two gray wolves beside her face, young woman's full body form with arms raised, facial expressions, two gray wolves beside her face, consistent background across all frames, consistent background, upward gaze in all frames, young woman's features and expressions emphasized in close-up view, presence of gray wolves adds mystery and intrigue, outdoor setting, day time, natural light, sense of continuity across frames
+ 6: 41.38% | processed_013219.mp4 | professional photo, 1girl and 1wolf outdoor, woman with gentle expression, standing with hands on wolf's back, dark gray wolf with black markings, woman reaching up to pet wolf on head in previous photo, wolf sitting down on all fours in previous photo, woman placing hands on wolf's back again in previous photo, wolf standing tall once more, outdoors during the day, natural light, soft atmosphere, realistic style
+ 7: 41.03% | processed_020410.mp4 | anime-inspired image sequence, 1girl transforming into wolf-like creature, young girl with long black hair and striking blue eyes stands on a bridge, facial expression gradually evolving from concern to transformation; body contorts and twists in subsequent keyframes; final form is that of a full-fledged wolf-like creature running with exhilarated abandon, dark fantasy setting consistent across all keyframes, mysterious and intriguing atmosphere
+ 8: 40.90% | processed_038050.mp4 | fantasy movie still, 1woman 1wolf transformation, young woman with long black hair adorned with red bow dressed in white and red outfit seated on bench then body larger fingers morphing into claws facial features altered fully transformed into wolf complete with four legs howling, outdoor setting trees grass serene atmosphere stark contrast to character's transformation unchanging backdrop
+ 9: 39.47% | mixkit_v2_02565.mp4  | Maned wolf in the high grass
+10: 39.12% | mixkit_v2_07141.mp4  | A ferocious and enraged werewolf fiercely bares its fangs while relentlessly howling into the abyss of the haunting halloween night.
+
+
+==================================================
+
+=== PROMPT: "Mia Khalifa" ===
+
+--- MODEL: sentence-transformers/all-MiniLM-L6-v2 ---
+TIME: 0.158s
+ 1: 48.48% | processed_009189.mp4 | close-up photo, 1girl Mia Wasikowska, stunning actress with long hair, soft features, bright eyes, subtle expressions, different poses and emotions in each frame, accentuated by soft lighting, dreamlike abstract background with blurred images of herself, a room with walls adorned with paintings, artistic touch, surreal atmosphere, low-key lighting
+ 2: 43.49% | processed_013872.mp4 | sci-fi photo, 1girl astronaut desert landscape, young woman in sleek gold and silver space suit, clear visor helmet, black backpack, determined expression, standing in front of large building with rocket ship soaring above, intricate details on suit and helmet, futuristic desert setting, sandy dunes, vast open sky, sunny day, cinematic atmosphere, photorealistic style
+ 3: 43.15% | processed_027200.mp4 | movie still, 1girl Mia Wasikowska as Blonde, emotional actress pale face intense expression dramatic eyes deep breathing holding script in hands sitting on couch with soft lighting, indoors film set natural light soft glow stable backdrop calm atmosphere professional photo cinematic style high-quality render
+ 4: 43.10% | processed_032547.mp4 | cinematic photo, 1girl pink-haired dancer, young woman with vibrant pink hair black and white striped top black shorts dynamic poses expressive eyes closed lost in music confident powerful assertive postures, dark blue sky distant stars mystery transformation self-expression
+ 5: 42.53% | processed_031243.mp4 | movie still, 1girl and 1boy warrior, young actress Mia Wasikowska in a blue jacket with gold accents plunging neckline holding sword shield serious focused expression fluid powerful movements from front side back shoulder angles, rustic wooden floor walls setting
+ 6: 42.36% | processed_032833.mp4 | movie still, 1girl and tropical beach, young woman in iconic white dress with lace-up details loose waves hair standing on sandy beach hands resting on hips facial expression confident, actress Mila Kunis in her role as Lilli Collins wearing the same iconic white dress throughout four key frames each frame showcasing a different pose but consistent facial expression, tropical beach setting palm trees swaying gently clear blue sky lush green fronds contrasting with blue sky above serene atmosphere
+ 7: 42.09% | processed_017627.mp4 | movie still, 1woman red dress beach scene, vibrant actress in her mid-40s wearing a stunning red dress with white top standing on the beach looking directly at the camera then subtly turning her gaze away to the side, Jennifer Lopez's character Selene from Maid in Manhattan standing in front of a picturesque ocean and towering buildings background varying stance between frames adding dynamism to the sequence, beach setting with vast ocean and tall buildings grey-blue sky warm sunlight vibrant colors high contrast cinematic atmosphere dramatic lighting realistic style close-up perspective centered composition
+ 8: 41.93% | processed_017417.mp4 | movie still, 1woman Mila Kunis, beautiful blonde woman wearing vibrant yellow bikini top and matching skirt with tousled hair and varying facial expressions in different poses, tanned skin confident stride poised relaxed stance elegant movement, picturesque beach setting serene ocean backdrop warm sunlight golden sand sun-kissed atmosphere cinematic photo vibrant colors photorealistic style high contrast dramatic lighting
+ 9: 41.88% | processed_016558.mp4 | professional photo, movie still, 1girl leaping in mid-air, young woman with long flowing hair white tank top denim shorts stretched out body in mid-air surrounded by sandy beach and cloudy sky, sandy beach overcast sky dramatic backdrop
+10: 41.68% | processed_013983.mp4 | movie still, 1girl singer performer, Jennifer Lopez in black and silver outfit, confident pose with hands on hips, determination and focus expression, striking a powerful stance, holding microphone close to her mouth, adding touch of warmth and joy to her face, playful flirtatious expression, full range of expressive emotions from confidence to playfulness, blurred background, consistent outfit throughout the sequence, focus on Lopez's performance, dynamic movement and gestures, intense atmosphere
+
+
+==================================================
+
+=== PROMPT: "interactive video, fun for selling bathroom products" ===
+
+--- MODEL: sentence-transformers/all-MiniLM-L6-v2 ---
+TIME: 0.1518s
+ 1: 48.08% | processed_033786.mp4 | photorealistic video stills, 1girl dancing, young girl in pink dress with white polka dots long dark hair dancing against stark white wall window to left with white blinds capturing dynamic pose and movement in each frame, ordinary living room setting warm natural light soft focus vibrant colors cinematic style high contrast
+ 2: 47.72% | processed_020919.mp4 | motion capture video artistry, 1 dancer dynamic pose, vibrant glow illuminating the dancer's form, arms extended upwards, legs lifted into the air, profile view showcasing the form and structure of the pose, slightly blurred frame on the left gradually sharpening to the right, each frame capturing a moment frozen in time yet creating a dynamic narrative that tells a story of grace elegance and passion, stark black background, cinematic wide-angle shot, high contrast
+ 3: 47.58% | pexels_v2_00896.mp4  | Sleek and modern, this video captures a professional exchange in a chic coworking space, with earthy tones and diffused lighting setting a calm, focused mood.
+ 4: 47.05% | processed_009739.mp4 | professional photo, 1girl futuristic bathroom,Lilah DeVeaux standing near sink, black and silver bodysuit in first frame, blue and white dress with large knife in second frame, pink and silver bodysuit raising arms in third frame, black and silver bodysuit standing near toilet in fourth frame,black and silver bodysuit showing muscular physique, blue and white dress revealing hidden knife, pink and silver bodysuit showcasing confident expression, black and silver bodysuit exuding mysterious aura,futuristic bathroom with blue and green color scheme, sleek metallic surfaces, glowing neon lights, artificial atmosphere, stylized sci-fi setting, cinematic lighting
+ 5: 47.03% | processed_028026.mp4 | cinematic photo, 1girl and shelf, young woman with long flowing blonde hair and bangs delicately touching white shelf with left hand while right hand rests at side, dancing in pink dress, woman's body leans slightly towards shelf creating intimate connection, arms outstretched mirroring bird in flight, hands join feet in dance, left hand grips shelf while right hand reaches out to invisible melody, pink-tinted room with white shelf and wall, vibrant pink floor, soft lighting creates warm atmosphere, indoors, evening light, dreamy atmosphere, realistic style, wide angle view
+ 6: 46.80% | processed_030653.mp4 | professional photo, 4 men bathroom scene, dark-haired man with back to camera reaching for something on wall, another man observing him from beside; second panel shows bearded man from behind reaching up towards wall with surprised expression; third panel features light-haired man lying on floor in relaxed state observing surroundings; fourth panel depicts bearded man standing near third panel's subject but unclear actions and expressions, each man's facial expression and body language convey tension and confusion as they engage in repeated action of reaching for something on wall, varying levels of detail to showcase each individual's unique features, bathroom setting with yellow walls, sink, and mirror present throughout all panels; precise locations of these elements vary but maintain relative positions to each other; overall tone is tense and foreboding, highly detailed realistic style, cinematic camera angles, intense focus on subjects' actions and expressions, vibrant yellow color scheme creating a sense of unease and anticipation
+ 7: 46.71% | processed_022079.mp4 | photorealistic image, 1boy 1girl and small group of people selfie scene, group of diverse individuals in front of bathroom mirror each holding camera flash or phone reflections capturing their actions and interactions; one person wearing headscarf standing out from the rest; two people sharing same headscarf, pink tiled bathroom setting single trash can in background modern minimalist style high key lighting bright colors
+ 8: 46.24% | processed_021225.mp4 | photorealistic image sequence, 1glass bowl filled with vibrant orange and pink liquid topped with a slice of lemon, clear glass bowl containing citrusy liquid with lemon slice garnish blurred background featuring bar counter in first photo restaurant setting with dining table and chairs in second photo human figure standing near bar counter in third photo detailed restaurant background with multiple tables and chairs in fourth photo, bar counter restaurant intimate dinner setting warm inviting atmosphere professional photo cinematic lighting
+ 9: 46.20% | processed_021274.mp4 | cinematic photo, 1 person dance move, dancer's hands raised high with fingers spread out in a claw-like gesture arms extending upwards to full height torso lifting off ground dancer's face and body partially visible throughout frames, dark purple surface abstract pattern in hues of pink and blue colorful background contrasts with dancer's figure making them stand out as primary focus mysterious energetic atmosphere evoking curiosity about what comes next, nighttime indoor setting low-light conditions professional photo high-quality render extremely detailed vibrant colors dramatic lighting cinematic feel
+10: 45.80% | processed_009194.mp4 | photorealistic image sequence, 1woman bathroom transformation, young woman with bare back and red bra, then red tank top, then black top, standing in front of sink, toilet, and shower, changing clothes and interacting with bathroom elements, bathroom setting with white sink, toilet, and shower, indoor location, everyday backdrop
+
+
+==================================================
+
+=== PROMPT: "Four dogs named Frank, Betty, Emmy, and Layla, along with a human male named James, all fight over the last treat in the world. However, Frank, Betty, Layla, and James are working in two separate secret teams." ===
+
+--- MODEL: sentence-transformers/all-MiniLM-L6-v2 ---
+TIME: 0.1707s
+ 1: 45.66% | processed_031403.mp4 | cartoon image, 1boy 2girls and 3dogs park scene, group of diverse dogs running playing interacting with humans one dog on all fours two dogs together another dog by itself third panel shows brown dog being petted by humans gray dog small white dog large brown black dog vibrant colors playful expressions happy atmosphere, lush green trees sunny day serene atmosphere cartoon style bright colors
+ 2: 45.46% | processed_034694.mp4 | photorealistic image sequence, 1girl 5dogs blue bandanas wooden platform, young woman with a warm smile standing next to six dogs, each wearing a blue bandana, on a sturdy wooden platform; in the second photo, she is joined by five other individuals, all interacting with the dogs in a relaxed manner; in the third photo, the dogs are performing tricks for their human companions, one dog leaping over another person's back; in the fourth photo, only the dogs remain, continuing to perform tricks and focus on unseen cues from an off-camera trainer, outdoor setting at sunset, late afternoon warm light, long shadows, gentle atmosphere, wooden platform set against a natural landscape
+ 3: 45.17% | processed_024409.mp4 | movie still, 3dogs red dogs, group of three red dogs with open mouths each in a different expression one with mouth agape panting another fully open growling or howling and third similar to first one, close-ups of individual red dogs showcasing varied expressions ranging from relaxed to alert each dog occupying its own square in a 3x3 grid against a stark black background, stark black background 3x3 grid indoor setting high-energy atmosphere playful composition
+ 4: 44.75% | pexels_v2_00887.mp4  | A heartwarming duo of dogs—a vigilant black and tan mixed breed and a curious white and black pooch—charm their way through cozy, sunlit scenes. #DogLovers #CutePets
+ 5: 43.87% | processed_027492.mp4 | cartoon image, 4 poodles walking sequence, 1 poodle standing upright on hind legs, 2 poodles walking towards us, 3rd poodle trotting away from us, 4th poodle running towards us all with pink pajamas and brown purses, blurred brick sidewalk rustic charm soft focus atmosphere playful style
+ 6: 42.36% | processed_009314.mp4 | unreal engine 5 render, 3smallwhite dogs casino game room, three small white dogs wearing black vests sitting around a table in a dimly lit room, looking at each other with interest and camaraderie, two dogs holding poker chips, one dog seemingly about to take a bite, third dog looking directly at the camera with wide eyes, indoor casino or game room setting, evening time, soft warm light, relaxed atmosphere, photorealistic style
+ 7: 42.23% | processed_023381.mp4 | movie still sci-fi, 4dogs eating noodles, four identical dogs wearing black jackets with red stripes on sleeves and yellow scarves around their necks one dog eating from a bowl another dog holding a bowl filled with noodles third dog holding a sign that reads "noodles" fourth dog looking at the other three with interest, restaurant setting with posters on the wall red awning yellow tablecloth lively atmosphere
+ 8: 42.06% | processed_031282.mp4 | photorealistic image, 4 small dogs on tricycles, four adorable small dogs, each sitting on its own black and white tricycle, two brown and white, two black and white, joyful expressions on their faces, varying in size and pose, one dog in the top left corner, another in the top right corner, a third in the bottom left corner, and a fourth in the bottom right corner, lush green field with trees scattered around, serene backdrop, warm and joyous atmosphere, bright sunlight, soft focus
+ 9: 41.95% | processed_026019.mp4 | movie still, 1white dog interacting with another dog, white dog light brown fur black nose walking on all fours across body of water stopping to sniff ground interacting with other dog turning attention towards camera, two dogs playing chasing each other in a serene natural setting calm water reflecting sky, natural lake or riverbank serene atmosphere peaceful weather sunny day late afternoon warm color palette photorealistic style high angle view
+10: 41.62% | processed_028580.mp4 | photorealistic image, 4 dogs various scenes, 1 tan Labrador Retriever seated comfortably on floor calm demeanor, 1 black Pit Bull standing guard next to fireplace with crackling fire, 1 brown Poodle walking across floor poodle-like coat fluffs up as it moves, 1 tan Labrador Retriever seated on wooden chair eyes fixed directly at camera, cozy living room warm fireplace soft lighting four dogs interacting with each other dreamy atmosphere centered composition
+
+
+==================================================
+
+=== PROMPT: "sonic with a big, squishy, stomach" ===
+
+--- MODEL: sentence-transformers/all-MiniLM-L6-v2 ---
+TIME: 0.1633s
+ 1: 52.31% | processed_018792.mp4 | cinematic photo, 1boy sonic the hedgehog, blue and pink colored boy with white outline mid-jump stretching arms for balance facing right side of image making slight downward curve in flight path over cityscape, iconic blue color contrasting against dark sky body angled forward for speed and agility white outline for maximum visibility, urban night setting towering buildings crescent moon dynamic energetic atmosphere
+ 2: 51.65% | processed_031294.mp4 | movie still sci-fi, 1boy holding red and white striped ball with blue body and red shoes in various actions: walking, running, flying, standing, young human-like Sonic the Hedgehog dynamic poses vibrant colors expressive facial expressions, various backgrounds: dark blue road, light blue sky, gray ground with blue mountain
+ 3: 41.58% | processed_009297.mp4 | unreal engine 5 render, 1boy sonic the hedgehog, human-like figure with golden complexion and red gloves on hands, running, jumping, motion blur, and dynamic lighting effects, urban cityscape at night under starlit sky with buildings and trees, transitioning from day to night
+ 4: 41.58% | processed_009285.mp4 | unreal engine 5 render, 1boy sonic the hedgehog, human-like figure with golden complexion and red gloves on hands, running, jumping, motion blur, and dynamic lighting effects, urban cityscape at night under starlit sky with buildings and trees, transitioning from day to night
+ 5: 39.48% | processed_001615.mp4 | A serene underwater scene of two sea slugs swimming in a vast blue ocean. The first slug's elongated body is visible from top down as it swims to the right, while the second slug glides gently across the seafloor below, also headed towards the right side.
+ 6: 39.23% | processed_038314.mp4 | movie still sci-fi, 1greenfrog multiple purplebubbles identicalgreengoals, adorned pink bubbles on back white spots on legs standing alone on black surface then surrounded by multiple purple bubbles, finally joined by group of identical green frogs, black surface with gradient of purple bubbles scattered throughout creating immersive and dreamy atmosphere
+ 7: 37.79% | processed_031877.mp4 | professional photo, cartoon-style image, 1 blue hedgehog purple surface, small blue hedgehog round body large ears enjoying tranquility in first frame, traveling towards right side of image with tilted body and tiny legs in full stride in second frame, navigating small hill with determination in third frame, reaching destination - a large blue cave entrance in final frame, purple speckled surface constant across all frames serving as starting point and final destination for hedgehog's journey, background elements remaining consistent throughout maintaining calm atmosphere contrasting with hedgehog's active movement
+ 8: 37.63% | processed_027290.mp4 | professional photo, movie still, cinematic photo, 3sharks underwater, 1 shark mid-yawn with mouth open facing slightly towards us, 2 sharks in tandem facing each other with mouths open, 1 shark facing away from us with mouth open, same shark facing towards us with mouth closed, deep blue ocean setting sunken ship or wreckage in the background vibrant coral reef fish swimming around the sharks dramatic lighting unreal engine 5 render, 3sharks underwater, sharks swimming through coral reef schools of small fish swimming around them diverse marine life and vegetation visible, sharks interacting with each other playful and dynamic movement, deep blue ocean setting sunken ship or wreckage in the background vibrant coral reef dramatic lighting close up photo, photorealistic, 1shark underwater, shark mid-yawn with mouth open facing slightly towards us detailed texture on its body scales gills visible, shark swimming through water ripples and movement visible, deep blue ocean setting sunken ship or wreckage in the background vibrant coral reef dramatic lighting movie still sci-fi, cinematic photo, 3sharks underwater, sharks interacting with each other mid-water explosion of bubbles fish swimming around them diverse marine life and vegetation visible, sharks playing hide and seek behind coral formations, deep blue ocean setting sunken ship or wreckage in the background vibrant coral reef dramatic lighting movie still sci-fi, cinematic photo, 3sharks underwater, sharks facing towards us with mouths closed relaxed posture fish swimming around them diverse marine life and vegetation visible, shark posing for a moment showing off its sleek body, deep blue ocean setting sunken ship or wreckage in the background vibrant coral reef dramatic lighting
+ 9: 37.63% | mixkit_v2_05981.mp4  | Dynamic hairy monster dancing
+10: 37.57% | processed_011201.mp4 | amusing photo, 1pink pig bubble bath, relaxed pink pig with closed eyes and flared ears, then surprised pink pig with mouth wide open, finally playful pink pig attempting to bite a bubble, surrounded by white bathtub and pink bubbles, bathroom setting, soft lighting, humorous atmosphere, cartoon style, shallow depth of field
+
+
+==================================================
+
+=== PROMPT: "5 girls fighting" ===
+
+--- MODEL: sentence-transformers/all-MiniLM-L6-v2 ---
+TIME: 0.1614s
+ 1: 48.73% | processed_031704.mp4 | movie still sci-fi, 1girl and 2boys fighting scene, young woman with long blonde hair dressed in blue tank top and jeans throwing punch at unseen opponent, then transitioning into defensive stance and finally relaxing with arms at sides and a smile on her face, white wall setting consistent throughout all four frames emphasizing key elements of each frame
+ 2: 45.30% | processed_021734.mp4 | photorealistic image, 6 girls identical uniform design, each girl has long blonde hair and striking blue eyes smiling warmly, mid-yawn, surprised, laughing heartily, looking angrily, varying facial expressions and body language, indoors modern minimalist setting bright lighting neutral background no distractions
+ 3: 45.30% | processed_024373.mp4 | photorealistic image, 6 girls identical uniform design, each girl has long blonde hair and striking blue eyes smiling warmly, mid-yawn, surprised, laughing heartily, looking angrily, varying facial expressions and body language, indoors modern minimalist setting bright lighting neutral background no distractions
+ 4: 45.04% | processed_023941.mp4 | movie still sci-fi, 3girls high-stakes situation, three young women with vibrant hair - two sporting fiery red locks and one with cool purple tresses standing shoulder-to-shoulder in a powerful stance each holding a sword breaking apart from their initial formation creating a sense of disunity or conflict within their group then standing back-to-back to one another preparing for a dual combat scenario or facing an unseen enemy together finally fully turning away from each other indicating a complete breakdown in their unity or common purpose, dark backdrop with faint outline of cityscape adding depth to the scene consistent elements in their appearances and actions across all frames suggesting continuity and progression in their narrative cinematic atmosphere dramatic lighting dark colors
+ 5: 44.03% | processed_018963.mp4 | anime-style image, 1pink-haired anime girl in black and white outfit, confident pink-haired anime girl standing with hands on hips, executing a kick, punching with visible tension in her arm, standing calmly with hands on knees, repeating the confident pose from the first keyframe, urban setting brick wall window bright colors contrasting with muted background
+ 6: 43.90% | processed_019808.mp4 | animated video still, 6 anime-style girls in matching outfits, six young girls with brown hair and blue eyes dressed in white blouses and black skirts each with unique facial expression and pose standing against a stark gray background with a dark blue wall and white door in front of them, various poses of the girls ranging from relaxed to energetic each capturing a different moment within the same setting, sequence allows viewers to follow their progression and movement throughout the scene, school-like setting with a contrasting backdrop, dynamic composition creates depth and perspective
+ 7: 43.25% | processed_016754.mp4 | cinematic photo, 1girl and 3boys dramatic fight scene, young woman with long black hair holding flaming torch, two men in black clothing locked in combat, three more figures joining the fight, all four characters engaged in intense physical confrontation, dynamic movements, intense expressions, dark clothing, fierce postures, raised fists and weapons, dark outdoor setting with faintly visible trees and bushes, ominous atmosphere, dramatic lighting Note: I've followed the provided structure to create the image generation prompt based on the given brief. Let me know if you need any further assistance!
+ 8: 42.05% | processed_017584.mp4 | movie still, 1girl and 1boy karate fight, young girl in red outfit with arms raised high, boy in blue outfit in aggressive fighting stance; girl switches to blue outfit facing opponent directly, boy changes to red outfit mirroring girl's stance; both characters engaged in combat with locked outfits, two martial artists exchanging blows with intense determination and focus; vibrant red and blue outfits contrasting against the bright blue background; dynamic sequence of four key frames showcasing the fight, vibrant blue background, stylized anime-inspired art style with bold lines and colors; high-energy atmosphere emphasizing the intensity and competition of the karate match
+ 9: 41.99% | processed_010610.mp4 | unreal engine 5 render, 2girls and 1girl warrior trio, three women in green and silver armor, standing with arms raised, holding shields in front of them, serious expressions, firm postures, ready for battle; woman on the left has her arms resting at her sides, contrast between rough rock terrain and shiny armor; woman in center holds shield, preparedness for defense or battle stance; woman on right stands tall, focused gaze, rocky landscape under a pink sky, varying rock colors and sizes contributing to rugged terrain, gradient transitioning from lighter to darker shades as it meets the horizon
+10: 41.57% | processed_015429.mp4 | digital illustration, 4 blue-haired girls dancing together, 1girl and 3 identical blue-haired friends small metallic objects white dresses with blue stripes smiling moving in harmony, each girl has vibrant blue hair styled in a similar manner white dresses with blue stripes held up by tiny straps revealing toned legs holding small metallic objects in their hands different facial expressions but same joyful demeanor, indoor space bright lights and colorful atmosphere playful tone
+
+
+==================================================
+
+=== PROMPT: "A boy who plays with Virat Kohli in the morning." ===
+
+--- MODEL: sentence-transformers/all-MiniLM-L6-v2 ---
+TIME: 0.1604s
+ 1: 42.20% | processed_000419.mp4 | A boy on a motorcycle performing a stunt at night. He's wearing a bright pink shirt and black pants, with his arms out for balance as he navigates a sharp turn under the stars. The background is darkened buildings and a clear sky, lit only by twinkling lights.
+ 2: 41.67% | processed_001004.mp4 | A young boy is smiling with joy, holding two pieces of toast in his hands. He's sitting at a wooden table with a blue tablecloth and waffles visible in the background. The scene has a warm and inviting atmosphere, with a nostalgic feel and golden tones that evoke a sense of morning light and simple pleasure.
+ 3: 40.95% | processed_006916.mp4 | A young boy is playing a guitar with passion and energy on a vibrant concert stage. He's wearing casual clothes, has messy hair, and a bright smile. The background is a deep purple color and the lighting is white and bright, creating an electric atmosphere.
+ 4: 40.77% | processed_005376.mp4 | A young boy sits at a table with a warm and cozy atmosphere. He has messy hair and a smudge on his cheek as he reaches for a sandwich in one hand while holding onto it with the other. A glass of juice is nearby, and sunlight streams through a window behind him.
+ 5: 40.74% | processed_034769.mp4 | action photo, 1boy skateboarder, youthful boy wearing black outfit with blue accents white helmet on board under his feet performing tricks and stunts dynamic movement fluid poses, dark sky vibrant orange and yellow hues evening night setting atmospheric backdrop
+ 6: 40.01% | mixkit_v2_02982.mp4  | Young boy is playing with his eyes closed
+ 7: 39.85% | processed_001168.mp4 | A young boy sits at a wooden kitchen table, smiling as he enjoys his breakfast. He has messy brown hair and wears a blue shirt. A fork is raised to his mouth with a bite of food on it, creating a warm and inviting atmosphere in the cozy kitchen setting.
+ 8: 39.76% | processed_020055.mp4 | movie still, 1boy musician with guitar and mask, young boy wearing black shirt and pants holding guitar with fingers on strings, mask covering face, confident posture, purple lighting effects on guitar and stage backdrop, guitar strumming fingers, microphone in hand, drum set in background with purple lights, passionate expression, musical notes and sound waves emanating from the scene, stage performance atmosphere, electric and enchanting, purple lights dancing around boy, transforming into stars as boy performs under a pink archway in daylight scene on city street
+ 9: 39.32% | processed_029631.mp4 | cinematic photo, 1boy with green hair sword, young boy with vibrant green hair and matching outfit holding a sword in his right hand, mid-motion, walking forward, looking down, turning around, confident gaze, dynamic poses, sense of purpose and determination, vibrant blue and green clothing, sleek sword, fluid body language, varied facial expressions, different poses showcasing movement and dynamism, white sky, stark contrast to character's attire, simple yet effective backdrop, focus on character and their actions
+10: 39.11% | processed_023532.mp4 | cinematic photo, 1boy and small group of people, young boy in black clothing holding a blue object with orange details standing amidst a backdrop of blue and orange objects blurred background close-up perspective, youthful face determined expression bright eyes casual stance object held confidently with both hands, dark room with faint blue and orange glow mysterious atmosphere low-key lighting dramatic shadows
+
+
+==================================================
+
+=== PROMPT: "Wish happy birthday to Sangeeta. Create a video." ===
+
+--- MODEL: sentence-transformers/all-MiniLM-L6-v2 ---
+TIME: 0.1579s
+ 1: 54.10% | pexels_v2_01291.mp4  | A heartwarming birthday video in soft, pastel tones captures the magic of childhood as joyful kids gather around a luscious cake, anticipation sparkling in their eyes.
+ 2: 49.42% | pexels_v2_00104.mp4  | A heartwarming moment as a toddler makes his birthday wish, helped by a loving adult. Warm hues and candid smiles radiate joy in this cozy celebration. 🎂🎈 #FamilyMoments #BirthdayJoy
+ 3: 48.28% | processed_001961.mp4 | A joyful birthday celebration scene featuring a young girl and boy surrounded by a beautifully decorated table. A delicious white cake is being cut into with a fork, with flowers adding a pop of color to the scene. Soft warm lighting creates a cozy atmosphere.
+ 4: 46.72% | pexels_v2_01333.mp4  | Dive into a sweet celebration as a cheerful kid readies to blow out a candle on a delectable cake, surrounded by pastel party vibes and joyful treats! #BirthdayBliss #PastelParty #CuteCelebrations
+ 5: 45.17% | pexels_v2_02114.mp4  | A festive video capturing the magic of celebration, featuring a vanilla cake with a lit candle, surrounded by confetti and pastel party cups—perfect for birthday joy!
+ 6: 44.64% | pexels_v2_01540.mp4  | In a photorealistic 4K tableau, an elegantly aged woman beams joy, her vibrant auburn hair framing her gentle smile. Clad in a soft beige attire, she cradles a cheerful birthday cake, its flickering candles illuminating her warm, nostalgic gaze. Surrounded by a serene backdrop, the atmosphere buzzes with love and celebration, capturing her essence as a beloved matriarch. Every detail evokes a heartwarming theme of cherished moments, reminiscent of timeless cinematic elegance, echoing the grace of a youthful Sophia Loren.
+ 7: 44.21% | pexels_v2_02040.mp4  | A heartwarming birthday celebration in warm tones beams with joy as friends toast with bubbly, surrounding a cake lit for someone's 60th year. Cheers to timeless friendships!
+ 8: 43.64% | pexels_v2_01432.mp4  | As twilight descends, a lavish beach setup glimmers with fairy lights and candles, casting a warm, inviting glow. The 'Happy Birthday' banner sparkles against the deepening blue sky, while red rose petals encircle the elegantly adorned table. Reflections dance on the softly lapping waves, accentuating the serene yet festive atmosphere. This cinematic scene unfolds like a romantic film, embodying joy and celebration, perfect for making cherished memories under the stars.
+ 9: 43.31% | pexels_v2_00101.mp4  | Warm hues & soft focus in a heartfelt family moment! A child's birthday, with a whimsical cake topped by cute woodland creatures, sets the scene for a cozy, intimate celebration. #FamilyGoals #BirthdayBliss
+10: 43.26% | pexels_v2_01898.mp4  | In a whimsical birthday celebration, a radiant woman in a chic white outfit beams joyfully while tossing shimmering confetti. Beside her, a toddler in an adorable white dress, a pacifier popping cutely from her mouth, reaches up with delight, eyes sparkling. The playful contrast of colors from balloons and streamers enhances the charming, photorealistic scene, drenched in a warm, inviting atmosphere. This heartwarming moment captures pure celebration and familial love, echoing the innocence of childhood and the vibrancy of treasured memories.
+
+
+==================================================
+
+=== PROMPT: "Give me a trending video about 40 seconds long that is unique." ===
+
+--- MODEL: sentence-transformers/all-MiniLM-L6-v2 ---
+TIME: 0.1667s
+ 1: 46.55% | processed_017785.mp4 | animated video sequence, 1 person long hair purple shirt interacting with surroundings, person standing alone on grassy field looking forward with anticipation, person in front of futuristic cityscape building with glowing blue and green facade, person floating away from city on boat towards distant island or shoreline, person standing above boat looking down with surprise expression, natural outdoor settings, futuristic cityscape with towering buildings and advanced technology, water with motion and movement, dramatic shifts in setting and atmosphere
+ 2: 45.70% | processed_038264.mp4 | photorealistic video montage, 1bird, 1girl, crowd, small group of people, 1person walking down a street, 1figure on a cliff, 1dancer, small bird perched on branch with ruffled feathers, human face with brimming eyes, bustling cityscape at night, solitary figure contemplating ocean view, person dancing mid-motion against black background, person walking down street, outdoor setting with gentle breeze, close-up of human face, busy nighttime cityscape, cliff overlooking vast ocean under clear sky, everyday street scene
+ 3: 44.56% | processed_022913.mp4 | artistic video sequence, 1person facial expressions close-ups and bird's eye view, various poses and lighting setups different angles of face open mouth prominent eyes blurred background focus on person, abstract urban or futuristic setting low-light atmosphere high contrast colors stylized visuals
+ 4: 44.36% | processed_019884.mp4 | cinematic photo, 4 blue blades dance, four distinct blue blades varying in size and shape, elongated forms reaching out into darkness, smallest blade on right side, largest blades follow in sequence, blades move dynamically across the frames, creating a sense of progression and movement, guiding eyes across the sequence in a natural top-to-bottom or left-to-right pattern, black background stark simplicity, frozen moment within a video, testifying to beauty of simplicity and power of repetition in storytelling
+ 5: 44.26% | processed_004711.mp4 | A clock face with numbers changing from 03:34 to 06:49, then 08:50, and finally 23:53. The background for each time changes, showing different settings with varying lighting levels, creating a mix of moods throughout the sequence.
+ 6: 43.99% | processed_026151.mp4 | movie still, 1boy and 2girls, close-up view of a person's face with accentuated features, another individual walking towards the right side, yet another person from a lower angle emphasizing their stature, same person now positioned on the left side adding progression, dynamic rhythm capturing the essence of the video's narrative precise positioning of subjects creating movement and emotion, city street purple and blue gradient background urban atmosphere cinematic feel professional photo
+ 7: 43.85% | processed_021893.mp4 | mysterious video still, 2girls and 1boy in motion, young woman with long hair running towards a tree holding a small object, man interacting with an arch, another young woman looking at them from behind, enchanted forest setting tall trees arches soft blue and green hues lush vegetation mystifying atmosphere
+ 8: 43.27% | processed_008128.mp4 | animated video still, 1man skateboarding, young man in blue plaid shirt and jeans riding skateboard across urban street at different stages, buildings and vehicles blurred in background, urban city street with tall buildings, parked trucks and cars, dynamic movement and energy
+ 9: 43.22% | processed_007399.mp4 | movie still, 1clock indoor scene, round beige clock with gold hands and numbers on a silver metal pole, attached to the wall above a window, showing time as 6:57, slight blur from camera movement across frames, indoors, white wall background, window on left side of frame in all frames, realistic visual style
+10: 42.82% | processed_028713.mp4 | vintage video still, 1girl and 1boy in motion, young woman with brown hair surprised expression close-up, young man with messy hair walking away side profile, young woman full-body view back to camera blurred building background, urban setting abandoned buildings graffiti-covered walls city streets grainy texture washed-out color palette nostalgic atmosphere
+
+
+==================================================
+
+=== PROMPT: "Make me a funny video to attract my followers." ===
+
+--- MODEL: sentence-transformers/all-MiniLM-L6-v2 ---
+TIME: 0.1712s
+ 1: 55.97% | mixkit_v2_02367.mp4  | Watching a funny YouTube video
+ 2: 48.23% | mixkit_v2_01119.mp4  | Family watching a funny video
+ 3: 39.23% | pexels_v2_00896.mp4  | Sleek and modern, this video captures a professional exchange in a chic coworking space, with earthy tones and diffused lighting setting a calm, focused mood.
+ 4: 39.21% | mixkit_v2_05166.mp4  | Funny girl promoting different social media networks while is dancing, in a colorful and fun sequence.
+ 5: 39.13% | pexels_v2_01095.mp4  | Warm, candlelit scenes of friends sharing laughter over a feast, capturing a cozy autumn vibe. The video oozes trend with its rustic chic decor and genuine, joyful interactions.
+ 6: 39.07% | processed_038264.mp4 | photorealistic video montage, 1bird, 1girl, crowd, small group of people, 1person walking down a street, 1figure on a cliff, 1dancer, small bird perched on branch with ruffled feathers, human face with brimming eyes, bustling cityscape at night, solitary figure contemplating ocean view, person dancing mid-motion against black background, person walking down street, outdoor setting with gentle breeze, close-up of human face, busy nighttime cityscape, cliff overlooking vast ocean under clear sky, everyday street scene
+ 7: 38.59% | pexels_v2_02136.mp4  | In a warm, sunlit room, friends gather, their laughter echoing. One hand reaches for a vintage soda bottle, while tender burgers and fries sit adorned with a playful candle. The scene pulsates with youthful joy, framed by a soft focus reminiscent of a nostalgic summer afternoon, emphasizing the carefree bond between them. A vibrant, Instagram-worthy aesthetic celebrates friendship and simple pleasures, capturing a moment that feels both timeless and fleeting, rich in flavor and connection.
+ 8: 38.33% | processed_006458.mp4 | A dynamic video of flames dancing in a dark background. The vibrant orange and yellow hues swirl and shift, casting a warm glow on the surrounding space. As the fire grows and shrinks, it forms mesmerizing patterns, filling the screen with movement and energy.
+ 9: 36.94% | pexels_v2_02151.mp4  | A charming video capturing a playful cat's interruption of an outdoor art session, where laughter and creativity bloom under soft lighting amidst nature's palette.
+10: 36.88% | processed_031136.mp4 | animated video, 1girl in pink dress, young girl dancing laughing waving surrounded by sunflowers bright yellow petals green leaves serene blue sky fluffy white clouds, giggling face expressive eyes sparkling with joy dancing freely arms outstretched lost in imagination laughing heartily waving at someone carefree and playful pose dynamic movements fluid animation, sun-kissed meadow warm golden light soft focus shallow depth of field vibrant colors pastel palette dreamy atmosphere cartoon style whimsical composition
+
+
+==================================================
+
+=== PROMPT: "a homeless man" ===
+
+--- MODEL: sentence-transformers/all-MiniLM-L6-v2 ---
+TIME: 0.1535s
+ 1: 52.31% | mixkit_v2_01136.mp4  | Poor man eating while begging
+ 2: 47.97% | mixkit_v2_03103.mp4  | A man desperately trying to scape
+ 3: 45.08% | mixkit_v2_03633.mp4  | Homeless cats on a wooden door
+ 4: 44.26% | mixkit_v2_02172.mp4  | Disabled man in a wheelchair crossing the road
+ 5: 43.39% | mixkit_v2_03719.mp4  | Homeless cat standing on the landfill
+ 6: 41.49% | processed_004124.mp4 | A casual man in his 30s walks down a quiet suburban street. He's smiling as he holds a "No Parking" sign, wearing a white shirt and blue jeans. Trees line the street, with a brick path leading to a peaceful atmosphere in muted colors.
+ 7: 41.04% | processed_006895.mp4 | A middle-aged man walks alone through a peaceful natural setting. He carries a walking stick and has a contemplative expression. The terrain varies with rocky cliffs and calm water bodies, creating a serene atmosphere. Warm sunlight filters through, casting long shadows on the landscape. A body of water reflects the sky above.
+ 8: 40.93% | processed_033949.mp4 | movie still sci-fi, 1man desolate cityscape, mysterious figure dressed in black jacket and pants standing on sidewalk with back to camera solitary presence against crumbling buildings, walking towards dilapidated structures, standing amidst rubble looking contemplative, walking through ruins with acceptance or resilience, abandoned urban landscape crumbling buildings debris-filled streets overcast sky greyish-blue tone melancholic atmosphere dramatic lighting extreme wide shot
+ 9: 40.57% | processed_001508.mp4 | A photo of an adult man in his 30s or 40s with dark hair and facial hair. He's sitting in a wheelchair, wearing a white shirt and blue jeans. He uses a cane for support and looks up at something, his face neutral. The room is a simple space with white walls and a blue floor.
+10: 40.19% | processed_038728.mp4 | photorealistic image, 1man carrying white sacks, adult man in his 30s wearing a black jacket with a large stack of white sacks on his back, balancing the load as he walks, determination on his face, taking steps forward, traditional village setting with wooden houses and a river flowing in the background, serene atmosphere, soft light
+
+
+==================================================
+
+=== PROMPT: "A lawyer defends his client in court against her crush, the prosecutor." ===
+
+--- MODEL: sentence-transformers/all-MiniLM-L6-v2 ---
+TIME: 0.1613s
+ 1: 25.87% | mixkit_v2_01003.mp4  | A woman holding a champagne glass drops her cards and beats her opponent at a green poker table with chips in the center.
+ 2: 25.19% | mixkit_v2_05386.mp4  | Close up view of the hands of a hairdresser who cuts the hair of a client with the help of a comb and scissors.
+ 3: 25.17% | processed_008350.mp4 | professional photo, 1boy and 1girl confrontation, young man with messy brown hair, black leather jacket, standing in front of car, facing off against young woman with short blonde hair, white tank top, blue jeans, standing opposite him; in second frame: both individuals engaged in heated argument, hands raised, faces red; in third frame: same two individuals standing behind car, emotions heightened, dark urban street at night, yellow and black striped tapestry hanging on wall behind them, tall buildings looming in the background, city lights reflecting off wet pavement, gloomy atmosphere
+ 4: 24.65% | mixkit_v2_05391.mp4  | Barber combing the hair of one of his male clients with a comb and spray in his barbershop.
+ 5: 23.63% | mixkit_v2_03070.mp4  | Comedy Director eating grapes
+ 6: 23.30% | mixkit_v2_03846.mp4  | Young athlete woman, exercising with push-ups while running on a soccer field, while the male coach takes her time.
+ 7: 23.19% | processed_001581.mp4 | A male bartender in an orange shirt and black pants holds a champagne flute with a pink cocktail. The glass is positioned against a blue neon sign that reads "Margarita" in a dimly lit bar setting, creating a warm and vibrant atmosphere.
+ 8: 22.78% | mixkit_v2_02213.mp4  | Young couple hugging in the bar
+ 9: 22.58% | mixkit_v2_02168.mp4  | Man yells at woman and gestures angrily on white background
+10: 22.53% | processed_022773.mp4 | dramatic movie still, 1boy and 1girl intense fight scene, young man with rugged face and messy hair, dark eyes, and a strong jawline fighting a woman with long blonde hair, piercing blue eyes, and a determined expression. The woman is wearing a leather jacket and jeans, while the man has on a black t-shirt and ripped pants. They are in mid-fight, with punches flying and bodies clashing, steep and rocky mountainous landscape with trees and waterfalls in the background, clear blue sky with ominous clouds gathering above. A sense of tension and urgency fills the air as the two figures clash.
+
+
+==================================================
+
+=== PROMPT: "Actor Halil Ibrahim Ceyhan video call telling his fans how much he loves them." ===
+
+--- MODEL: sentence-transformers/all-MiniLM-L6-v2 ---
+TIME: 0.1666s
+ 1: 38.43% | pexels_v2_00198.mp4  | A heartwarming moment unfolds in this video, showcasing a bearded man, a joyful Shiba Inu, and a woman engaging in playful affection against a serene, natural backdrop with soft, natural lighting.
+ 2: 35.66% | pexels_v2_02195.mp4  | In a warmly lit room adorned with "EID MUBARAK" banners, a father, with a gentle beard, engages animatedly with his wide-eyed son, who wears an expression of eager curiosity. Dishes overflow with vibrant dishes, creating a nostalgic, celebratory atmosphere. The intimate, homely setting, bathed in soft glow, heightens their heartfelt connection, evoking themes of family bonding and tradition.
+ 3: 34.86% | pexels_v2_00197.mp4  | Sun-kissed and serene, this video captures the heartwarming bond between a person and a Shiba Inu, set against a soft, pastoral backdrop. Warm hues and gentle lighting in nature underline the joy of a day spent with a furry friend.
+ 4: 34.56% | pexels_v2_01035.mp4  | Bathed in soft daylight against serene skies, the video captures a joyful vibe with a person playfully enveloped in a cluster of vibrant red heart balloons, an ode to love and carefree spirits. 🎈💖 #LoveIsInTheAir #HeartBalloons
+ 5: 34.02% | pexels_v2_01624.mp4  | In a cozy, softly lit kitchen adorned with twinkling fairy lights, a couple sways gently, lost in their moment. She sports curly hair and a playful smile, while he, with a scruffy beard, gazes adoringly. Their hands intertwine, sharing laughter, warmth, and intimate whispers. The stylish, photorealistic ambiance captures their joy, echoing a film-like romantic theme. The scene radiates love and connection, embodying a heartfelt celebration of togetherness.
+ 6: 33.94% | pexels_v2_01625.mp4  | In a softly lit room adorned with twinkling fairy lights, a couple sways intimately, eyes locked. The woman, with lush curls and a beaming smile, draws closer, playfully touching his beard, charmingly clad in a white tee. He, radiating warmth, leans in for a gentle kiss, their playful banter palpable. A cozy dining table, set for an enchanting evening, enhances the atmosphere. The mood is romantic and joyous, reminiscent of a heartwarming holiday film, celebrating love's simple, beautiful moments.
+ 7: 33.55% | pexels_v2_00199.mp4  | In a dreamy countryside setting, a stylish couple shares a tender moment with their adorable Shiba Inu, basking in the soft, pastel-hued light of what seems like a perfect day.
+ 8: 33.50% | pexels_v2_02225.mp4  | In a charming, photorealistic tableau, two whimsical figurines dance to an unseen melody. The boy in a dapper pink suit strums his guitar with joy, while the girl in a patterned dress twirls, holding a heart. Their playful interaction radiates love, highlighted by warm lighting against a stark, dark backdrop that emphasizes their vibrant colors. Each frame captures their lively expressions—pure delight and playful affection—imbuing the scene with a nostalgic, enchanting atmosphere. The enchanting theme mirrors a classic love story, evoking sentiments of innocence and joy.
+ 9: 33.38% | pexels_v2_01861.mp4  | In a cozy, warmly lit living room, an elderly couple shares a tender embrace, laughter dancing in their eyes. The woman’s silver hair frames her soft smile as she gently holds a glass of wine. The man, with a playful grin and stylish glasses, mirrors her joy, both wearing harmonizing earth tones that enhance their intimate connection. Surrounding trays of snacks hint at a celebratory moment, while the glow from soft lamps casts a nostalgic atmosphere. This scene radiates love, warmth, and the beauty of shared memories, reminiscent of classic romantic films.
+10: 32.87% | pexels_v2_01094.mp4  | Cozy and intimate, this video captures a couple's magical moment amidst the warm glow of fairy lights, embracing the holiday spirit with sparklers and festive decor.
+
+
+==================================================
+
+=== PROMPT: "Make a school bus inside a human body in the esophagus." ===
+
+--- MODEL: sentence-transformers/all-MiniLM-L6-v2 ---
+TIME: 0.1664s
+ 1: 41.73% | mixkit_v2_05235.mp4  | Urban model with curvy black hair eating an apple inside a neon-lit passenger bus.
+ 2: 38.99% | mixkit_v2_05237.mp4  | Face of an urban style girl while chewing gum sitting on a bus.
+ 3: 38.39% | processed_008463.mp4 | realistic photo, 2people emergency medical response, 1woman in blue paramedic uniform bending to examine something inside bus door, 1man in white shirt assisting her, both with serious expressions, bus windows and doors visible behind them, street setting outdoors, bright sunlight, urban atmosphere, realistic style, low angle view from back of bus
+ 4: 38.08% | mixkit_v2_03080.mp4  | Lined up to board a bus
+ 5: 36.49% | mixkit_v2_06172.mp4  | Interior of an abandoned bus at night
+ 6: 36.20% | mixkit_v2_02193.mp4  | A young man with a medical mask exercising in the park
+ 7: 35.77% | processed_000496.mp4 | A person in a hospital bed, balding and wearing an oxygen tube, looks concerned as they hold a remote control. Medical monitors and IV poles surround them, under bright overhead lighting. The scene feels serious and potentially emotional, with a sense of someone recovering from illness.
+ 8: 35.38% | mixkit_v2_03469.mp4  | Urban passenger bus on an avenue next to the train
+ 9: 34.85% | mixkit_v2_06892.mp4  | Extreme close up view of a murderers bloody fingers picking up a scalpel from a tray, which is covered in blood and full of horrifying torture implements..
+10: 34.81% | processed_000718.mp4 | A young boy in a hospital room, lying on a bed or sitting in a chair, with a serious expression. He has dark hair and a pale face. The room is dimly lit with sterile white walls, gray medical machines, and brown furniture. A mix of hospital equipment and personal belongings surround him.
+
+
+==================================================
+
+=== PROMPT: "**Title: "Haunted Mansion"** **Part 1:** Shivani and her friends had heard about a mansion located in an old village that had been closed for years. One day, they decided to go to the mansion and find out for themselves what was there. Seeing the mansion sent a strange shiver down their spines. The wooden door was old and rotten, but after breaking the chain of a lock, they entered. The atmosphere inside the mansion was dense and dark, as if no living person had been there." ===
+
+--- MODEL: sentence-transformers/all-MiniLM-L6-v2 ---
+TIME: 0.1736s
+ 1: 67.67% | mixkit_v2_06198.mp4  | Haunted house interior in a ghost town
+ 2: 63.39% | mixkit_v2_06194.mp4  | A door opens by itself in a haunted abandoned house
+ 3: 63.11% | mixkit_v2_06199.mp4  | Exterior of a haunted house in a ghost town
+ 4: 63.02% | mixkit_v2_06195.mp4  | Time lapse of an abandoned haunted house
+ 5: 59.87% | mixkit_v2_06191.mp4  | Abandoned and haunted house in the middle of the desert
+ 6: 59.74% | mixkit_v2_05685.mp4  | A boy and girl exploring a fancy old haunted mansion, complete with flickering lights, when suddenly the girl is possessed.
+ 7: 58.95% | mixkit_v2_05699.mp4  | Young woman exploring a haunted mansion at night, when she suddenly turns around quickly being scared by something.
+ 8: 57.59% | mixkit_v2_05697.mp4  | Young woman seen from behind is startled exploring an elegant haunted mansion in the dark, when suddenly the lights flicker some lamps.
+ 9: 56.42% | mixkit_v2_05696.mp4  | Portrait of a young woman getting scared while exploring a dark haunted mansion at night, with a lamp in her hand.
+10: 55.68% | mixkit_v2_05694.mp4  | Two girls and a boy exploring a dark and elegant haunted mansion together, lighting up with flashlights at night.
+
+
+==================================================
+
+=== PROMPT: "A person cooks spaghetti at home in a warm kitchen with natural light." ===
+
+--- MODEL: sentence-transformers/all-MiniLM-L6-v2 ---
+TIME: 0.1659s
+ 1: 80.20% | processed_000105.mp4 | A person is shown cooking spaghetti at home. Four photos capture the process: a single serving being scooped from a pot with a metal spoon, and then placed on a plate with red sauce. The scene features a warm kitchen setting with natural light.
+ 2: 74.31% | processed_001568.mp4 | A woman stands in a cozy kitchen, cooking spaghetti. She wears a white blouse and holds a silver spoon as she scoops noodles from a pan and adds toppings. A warm glow fills the room, illuminated by late afternoon sunlight streaming through the window. The atmosphere is inviting and homey.
+ 3: 61.79% | processed_001653.mp4 | A person is cooking in a modern kitchen. They are standing at a counter, chopping ingredients with a knife and on a cutting board. The background is a beige wall with white cabinets and modern appliances. Warm light fills the space, creating an inviting atmosphere.
+ 4: 61.20% | processed_005763.mp4 | A skilled chef is preparing a dish in a cozy kitchen. The chef wears a crisp white apron and carefully arranges food on wooden plates with a spoon. Natural light fills the room through a window, creating a warm atmosphere.
+ 5: 60.74% | processed_029607.mp4 | photorealistic image, 1person cooking spaghetti, person's hand skillfully twirling long thin noodles into an enticing spiral shape over a bed of freshly cooked light brown spaghetti with red bowls and kitchen utensils in the background, busy kitchen scene with other people visible, red bowls scattered around, warm and inviting atmosphere, traditional Italian culinary setting
+ 6: 60.20% | processed_001790.mp4 | A person cooks noodles in a home kitchen. They use chopsticks to pick up steaming hot noodles from a pot of boiling water. Green onions and kitchen utensils surround them. The atmosphere is calm and natural light fills the space. The scene feels everyday and relaxed, with a focus on the cook's hands moving deftly.
+ 7: 60.05% | processed_001516.mp4 | A person sits in a cozy setting, smiling as they take a bite of spaghetti. A fork holds a long strand of spaghetti with a few green leaves on top, over a plate filled with more spaghetti, in a warm and inviting atmosphere.
+ 8: 58.00% | processed_000259.mp4 | A warm and inviting home kitchen scene. A person is cooking in a cozy atmosphere, with red sauce being stirred and served from a metal pot to a black skillet on a white stovetop. Wooden utensils and small bowls are used throughout. The rustic brick wall and copper cookware add to the charming setting.
+ 9: 57.34% | processed_005255.mp4 | A woman is cooking in a cozy home kitchen. She's wearing a black outfit and has a brown scarf on her head. She's chopping vegetables with a knife and stirring a pot on the stove, surrounded by kitchen utensils and warm lighting.
+10: 55.13% | processed_004605.mp4 | A woman stands in a warm and inviting kitchen, wearing a bright yellow sweater and white apron. She is preparing a snack, surrounded by fruits and vegetables on the counter, with a knife and cutting board nearby. The scene is bathed in soft natural light, creating a cozy atmosphere.
+
+
+==================================================
+
+=== PROMPT: "Sizzling hot sirloin beef steak, juicy, delicious" ===
+
+--- MODEL: sentence-transformers/all-MiniLM-L6-v2 ---
+TIME: 0.1646s
+ 1: 60.73% | mixkit_v2_06107.mp4  | Close up of a sizzling medium rare steak
+ 2: 55.39% | mixkit_v2_02187.mp4  | Cooking steak in the kitchen
+ 3: 54.71% | mixkit_v2_01390.mp4  | Raw beef steak ready for the grill
+ 4: 52.06% | mixkit_v2_06251.mp4  | Two salmon steaks being placed into a sizzling hot pan
+ 5: 50.59% | mixkit_v2_02054.mp4  | Steak and fresh salad
+ 6: 50.33% | mixkit_v2_01069.mp4  | Steak on a chopping block
+ 7: 47.97% | mixkit_v2_03050.mp4  | Salmon steak with vegetables and lemon
+ 8: 47.26% | mixkit_v2_06554.mp4  | Meat vegetable and fruit dish
+ 9: 47.23% | mixkit_v2_06421.mp4  | Close up of a chef expertly carving a large piece of beef
+10: 46.37% | mixkit_v2_06486.mp4  | Steak on the grill with black background
+
+
+==================================================
+
+=== PROMPT: "snow falling in Egypt's desert on the pyramid" ===
+
+--- MODEL: sentence-transformers/all-MiniLM-L6-v2 ---
+TIME: 0.1593s
+ 1: 58.92% | processed_031257.mp4 | movie still, 1great pyramid and 3 smaller pyramids on fire, one of the great pyramids ablaze with fiery orange flames engulfing its surface while the other two remain unscathed amidst a clear blue sky, ancient Egyptian architecture massive stone structures smoke billowing from the burning pyramid, people in the distance running away from the inferno, multiple ancient Egyptian pyramids standing tall and proud each one made up of numerous stones, with one of them being engulfed in flames adding an element of drama to the scene, Egyptian desert sun beating down on the pyramids harsh dry terrain endless dunes stretching out into the distance, hot desert wind blowing across the sand creating a hazy atmosphere
+ 2: 56.79% | processed_038945.mp4 | professional photo, ancient Egyptian landscape, 1group of people smiling and interacting in front of a pyramid, entire pyramid with golden hues standing out against the sandy desert, group of people walking towards it, individuals climbing on and around the pyramid, person standing at the top of the pyramid, infinite scale, intricate architectural details of the pyramid, diverse clothing styles, smiles and laughter among the people, sun shining down upon them, dynamic movement as they climb the pyramid, up-close view of a person's face with a triumphant expression, ancient Egyptian desert with pyramids, warm golden light casting long shadows, soft sand beneath their feet, endless blue sky above, sense of awe and wonder at the massive structure
+ 3: 52.71% | mixkit_v2_01430.mp4  | Bright snow falling
+ 4: 52.40% | mixkit_v2_02603.mp4  | Slowly falling snowflakes
+ 5: 51.96% | processed_027556.mp4 | professional photo, ancient Egyptian setting, 1boy and 2girls standing in front of pyramid surrounded by palm trees and desert landscape, young boy wearing traditional Egyptian clothing with red headdress and gold accessories looking up at the pyramid while two girls dressed in white linens with floral patterns walking towards him holding hands and smiling, desert landscape with sandy dunes and rocky terrain vast blue sky with fluffy white clouds warm sunlight filtering through palm trees and casting long shadows historical setting of ancient Egypt realistic style with subtle depth effects
+ 6: 50.98% | processed_006887.mp4 | A serene ancient stone statue stands in an Egyptian desert landscape. The statue, with a worn brown finish, is depicted in four different poses against a warm golden sky at sunrise or sunset. Wispy clouds and vast sandy dunes are visible in the background.
+ 7: 50.82% | processed_036941.mp4 | professional photo, movie still, 1girl and 2boys ancient Egypt adventure, young woman in blue outfit standing before two majestic pyramids with confident posture and respectful expression, two men in beige robes walking towards the pyramids behind her, one of them is holding a staff, desert-like environment golden sand reflecting off the surrounding buildings warm sunlight atmospheric dust haze cinematic wide-angle shot
+ 8: 50.75% | mixkit_v2_01444.mp4  | Snow falling at night seen from below
+ 9: 49.64% | processed_032371.mp4 | professional photo, movie still, 1lion-like creature and pyramid structure, majestic lion-like creature with golden fur standing tall on top of a grand pyramid structure arms raised high in a powerful pose with same pose maintained across five keyframes backdrop remains consistent featuring expansive desert landscape dotted with palm trees and mountains in the distance, ancient Egyptian desert setting under warm golden light with blue skies and vast sandy dunes realistic style centered composition
+10: 49.59% | processed_014106.mp4 | professional photo, small group of people Great Pyramid, people walking around pyramid, varying ages and clothing styles, some taking photos, others admiring architecture, clear blue sky with few clouds, Egyptian cityscape, historic monument, warm sunlight, bustling atmosphere, cinematic wide-angle shot
+
+
+==================================================
+
+=== PROMPT: "Lula went to the hospital for a check-up, but when he saw the queue for tests, he decided to run away. He disguised himself as a nurse, but was caught pushing an empty wheelchair. “Comrades, it’s for the democracy of my freedom!”, he explained. He ended up surrounded by nurses and came out laughing: "Okay, I'll come back for the exam, but only if I have coffee!"" ===
+
+--- MODEL: sentence-transformers/all-MiniLM-L6-v2 ---
+TIME: 0.1712s
+ 1: 36.27% | mixkit_v2_06372.mp4  | Paramedic driving a patient in a wheelchair in a creepy hospital
+ 2: 35.83% | processed_005222.mp4 | A photo of actress Lupita Nyong'o walking away from the camera in a bright red dress. She's looking back over her shoulder with a thoughtful expression, surrounded by lush green trees and foliage. The lighting transitions from indoors to outdoors, creating a beautiful contrast.
+ 3: 33.85% | processed_002155.mp4 | A photo of a quiet moment in an elevator. A nurse in a crisp white uniform stands beside a seated patient in a wheelchair, both gazing out the elevator doors at something outside. The atmosphere is calm and intimate, with a sense of care and attention between them.
+ 4: 32.75% | processed_000326.mp4 | A middle-aged medical professional in a hospital setting. He's wearing a surgical gown and mask, standing over a hospital bed with a file in hand. His expression is thoughtful as he glances down at the document, his eyes looking beyond the room to something else. The scene has a calm, sterile atmosphere.
+ 5: 31.11% | mixkit_v2_03029.mp4  | Waiter bringing the tea to the customer
+ 6: 31.02% | processed_000082.mp4 | A photo of a person in a wheelchair. He's wearing a white shirt and black pants. The image shows him turning around to face the camera while moving through an open room with natural light pouring in from the window behind him.
+ 7: 30.89% | mixkit_v2_04894.mp4  | Face of a terrifying ghost nun laughing maliciously, turning to look at the lens afterwards, under a red light.
+ 8: 30.46% | processed_002174.mp4 | A family moment in a hospital room: a smiling adult man stands beside a young child in a wheelchair. The pair share a tender connection as they look into each other's eyes. A warm and intimate atmosphere fills the scene, with soft lighting and calming colors.
+ 9: 30.41% | processed_000550.mp4 | A hospital room scene. An elderly man lies in a hospital bed, initially still and closed-eyed. He gradually stirs and looks at a nurse standing beside him. Another nurse and a doctor are present, holding clipboards. The room has white walls and medical equipment, with a sense of clinical atmosphere.
+10: 30.32% | processed_000585.mp4 | A young girl sits in a wheelchair, looking directly at the camera with a bright smile. She leans back and smiles again, then propels herself forward with determination, her expression changing from carefree to serious as she focuses on a thought. The scene is indoors, lit dimly and with an intimate atmosphere.
+
+
+==================================================
+
+=== PROMPT: "Ekalavya was the son of Nishad Raj Hiranyadhanush and belonged to the forest-dwelling community. He had a strong desire to become a skilled archer. To fulfill this aspiration, he decided to learn from the great teacher Dronacharya, who was the most renowned archery instructor of that time." ===
+
+--- MODEL: sentence-transformers/all-MiniLM-L6-v2 ---
+TIME: 0.1668s
+ 1: 38.61% | mixkit_v2_04179.mp4  | Female archer shooting an arrow
+ 2: 36.59% | processed_012584.mp4 | professional photo, 1girl archer outdoor, young woman in black outfit with red accents, holding bow and arrow, focused expression, standing firm on one leg, adjusting arrow on second frame, releasing arrow on third frame, relaxed yet vigilant on fourth frame, outdoor forest or woodland area, varying background and lighting conditions throughout frames, natural atmosphere, realistic style
+ 3: 36.05% | processed_005115.mp4 | A heroic warrior stands confidently in front of a majestic medieval castle at dusk. He wears a long robe and wields a gold sword, his muscles tense as he prepares for battle. The camera follows him as he takes a purposeful stride forward, finally capturing the moment when he swings his sword with all his might under a starry night sky.
+ 4: 35.90% | mixkit_v2_06714.mp4  | Young man master of martial arts bowing to camera
+ 5: 33.02% | processed_022235.mp4 | epic fantasy art, 1angel warrior with sword and shield, tall angelic being wearing golden armor long brown hair flowing back holding sword in right hand and shield in left hand standing on rocky cliff looking confident and strong, ancient mystical landscape rugged rocky terrain sprawling valleys distant mountains shining sun warm light majestic atmosphere painterly style low angle view
+ 6: 32.64% | processed_023235.mp4 | fantasy movie still, 1boy warrior with sword bow and shield, tall muscular man in deep red armor gripping sword ready for battle, later armed with bow amidst fire flames encircling him, then with sword and shield facing adversary directly, finally standing at center of battle scene with all three weapons, dark blue sky speckled with stars timelessness epic atmosphere cinematic wide-angle shot low angle view
+ 7: 31.26% | processed_033772.mp4 | cinematic photo, 1boy with bow and arrow and small group of people, young adult male figure dressed in dark attire and carrying a bow and arrow, with a determined expression, swinging his bow and taking aim at an unseen target, then firing it with confidence, standing victorious on top of a cliff, and finally soaring into the sky above the cliff, mysterious dark mountain range under a starry night sky, dramatic lighting, and a sense of adventure and danger
+ 8: 30.41% | mixkit_v2_01755.mp4  | School of Piranha fish in a freshwater lake
+ 9: 29.91% | processed_009630.mp4 | cinematic photo, 1boy bow and arrow, young man in black clothing, holding a bow with arrow pointed forward, muscles tensed, eyes focused on the distance, surrounded by undergrowth and dark forest shadows, red lights illuminating the scene from behind, dense forest setting, towering trees, eerie red glow, mysterious atmosphere
+10: 29.57% | processed_011236.mp4 | professional photo, 1boy warrior, clad in black armor and helmet adorned with plume, right hand gripping sword, focused gaze, assertive posture, running towards left side of image mid-charge, holding sword high in victorious pose, contemplative expression walking away from camera, indistinct castle-like structure blurred by distance, stark contrast between black and white, dramatic visual impact
+
+
+==================================================
+
+=== PROMPT: "A man accompanied by a bull man." ===
+
+--- MODEL: sentence-transformers/all-MiniLM-L6-v2 ---
+TIME: 0.1555s
+ 1: 54.11% | mixkit_v2_04017.mp4  | Mysterious man in a worn and torn black robe, holding the graining of a large horned bull, right in front of his face, in an ancient, empty and dark room.
+ 2: 53.82% | mixkit_v2_04026.mp4  | Mysterious hooded man in a long, worn black robe, carrying and lifting the skull of a bull and a woman curtsying, in a dark ancient room.
+ 3: 51.75% | mixkit_v2_00262.mp4  | A man walks with his dog in a forest, low view. A white dog following its owner on a sunny day at nature. A man exploring with his dog.
+ 4: 51.27% | mixkit_v2_04027.mp4  | Mysterious person carrying the skull of a bull in front of his face, and a woman reaching her hand towards him, in a dark place.
+ 5: 50.01% | mixkit_v2_04018.mp4  | Woman touching the skull of a bull holding a mysterious hooded man in a robe, in a dark place.
+ 6: 49.98% | processed_036758.mp4 | vibrant photo, 1man bull costume, man wearing red cape and yellow belt with "Sancho" written on it holding gold bull horn walking down street, man's face hidden under mask but body language suggests confidence and charisma, posture upright, walking not running, consistent costume and actions throughout sequence, colorful outdoor setting, street with buildings of different colors such as pink, yellow, and red, crowds of people gathered near buildings, dynamic atmosphere
+ 7: 48.57% | mixkit_v2_06467.mp4  | Bull eating in front of a temple in Cambodia
+ 8: 47.45% | mixkit_v2_00098.mp4  | Man walking over a fallen tree in a forest with his dog.
+ 9: 46.12% | mixkit_v2_01171.mp4  | India bulls walking in the city streets
+10: 45.69% | mixkit_v2_00261.mp4  | A barefoot man walks with his dog in a creek on a forest, low view. A wet dog following its owner on a sunny day at nature. A man exploring with his dog.
+
+
+==================================================
+
+=== PROMPT: "shows skeins of wool in different colors" ===
+
+--- MODEL: sentence-transformers/all-MiniLM-L6-v2 ---
+TIME: 0.1596s
+ 1: 48.45% | processed_028938.mp4 | still life photo, weaved basket sheep's wool, intricately woven basket filled with fluffy white wool green leaves and small stones at its base each strand of wool skillfully intertwined and secured in place creating a beautiful pattern the finished product reflecting time and effort invested in its creation, serene peaceful atmosphere blurred background depth without distraction from main subject warm natural light minimalist style low angle view
+ 2: 47.38% | mixkit_v2_04656.mp4  | Abstract texture of bright yellow silk fabric moving.
+ 3: 44.50% | mixkit_v2_04651.mp4  | Video of the abstract texture of two different red and gray wavy fabrics.
+ 4: 42.38% | processed_010593.mp4 | close up photo, 2blue peacock feathers, intricately detailed blue feathers with unique texture and pattern, oriented towards each other in symmetrical arrangement, background transitioning from purple at top to blue at bottom, still life setting, no visible camera movements or special effects, warm and inviting atmosphere
+ 5: 42.06% | processed_037126.mp4 | vibrant cartoon image, 1pink sheep 1blue sheep 1orange sheep 1purple sheep, four uniquely colored sheep standing on a colorful carpet with each sheep engaged in a different action: pink sheep tilting head upwards, blue sheep gazing downwards, orange sheep looking straight ahead, purple sheep looking off to the side; all sheep interacting and connected through their actions, vibrant cartoon landscape with colors of red green yellow and pink; dreamy atmosphere with inscribed word "Dream" in white letters at top center
+ 6: 40.67% | pexels_v2_00159.mp4  | Meet this silver-coated Scottish Fold, whose captivating yellow eyes and plush fur are stealing hearts in cozy, soft-lit scenes. This cutie is #CatGoals!
+ 7: 39.49% | mixkit_v2_00064.mp4  | Closeup of blue, red, orange, blue and white ink texture under water.
+ 8: 38.92% | mixkit_v2_04650.mp4  | Abstract video of bright red wavy fabric texture.
+ 9: 38.22% | processed_031082.mp4 | vibrant wildlife photo, 4 colorful macaws perched on wooden posts, brightly colored birds red blue green and yellow feathers each bird distinct in color facing same direction as if observing something off-frame to left vibrant plumage detailed beak and feet visible, exotic tropical rainforest blurred dark blue background suggesting motion or depth adding dynamism to the scene
+10: 37.60% | mixkit_v2_04654.mp4  | Shiny gray silk fabric that moves in the wind. Background texture.
+
+
+==================================================
+
+=== PROMPT: "A story about a beautiful girl singing a song about loneliness and heartbreak, wishing for her lover to return to her. A sad song about painful memories and making wrong decisions." ===
+
+--- MODEL: sentence-transformers/all-MiniLM-L6-v2 ---
+TIME: 0.1647s
+ 1: 44.96% | processed_023222.mp4 | movie still, 1girl on wooden bench, young girl in black dress holding book with tears on her face turning towards something off-frame facing directly at the viewer, expression of sadness and contemplation giving way to curiosity and connection with a close-up view of her face looking directly at the viewer with introspection and concentration on her facial features, serene green landscape under clear blue sky consistent background adding depth to the narrative with a contrast between the girl's emotional state and the calmness of the environment
+ 2: 44.45% | processed_014792.mp4 | movie still, 1girl emotional journey, young girl in white dress and blue headband, styled pigtails, changing expressions from curiosity to sadness to joy to contentment, standing amidst tranquil landscape with fluffy clouds and trees, serene countryside setting, gradual changes in sky color throughout sequence, soft natural light, peaceful atmosphere
+ 3: 43.15% | pexels_v2_01419.mp4  | In a soft-lit, serene bedroom, a woman with cascading waves comforts a young girl nestled with blankets. The child’s tired eyes glimmer with emotion, her expression shifting from worry to solace. Their intimate embrace conveys deep trust against a backdrop of muted beige and luxurious textures. This Instagram-worthy scene radiates warmth, encapsulating love and vulnerability. The overall mood resonates with gentle nostalgia, highlighting the themes of comfort and connection in a timeless moment.
+ 4: 43.13% | pexels_v2_01314.mp4  | Bathed in golden sunlight, this video likely captures a heartfelt story, focusing on a red-haired woman's emotive expressions as she navigates a warm, autumnal setting.
+ 5: 42.49% | processed_005548.mp4 | A young woman sings with passion and focus, standing on a wooden path surrounded by trees. She wears a bright red coat and skirt, and holds a microphone in mid-song. A serene atmosphere surrounds her, with sunlight casting a peaceful mood over the entire scene.
+ 6: 42.41% | processed_028697.mp4 | movie still, 1girl with dark hair, young girl standing in front of a window looking out at the street below with a sense of longing or curiosity, reading a book on a desk indoors and outdoors under an umbrella, holding a different book on a desk again with a change in interests, navigating various environments and activities, each frame capturing a slice of her life within this narrative, detailed description: young girl with dark hair and a thoughtful expression, looking out the window with a gaze directed outside, engrossed in reading a book indoors and outdoors with an umbrella, holding a different book on a desk again with a change in interests, diversity and depth across various backgrounds, each frame capturing a slice of her life, setting and atmosphere: indoor/outdoor settings, changing environments and activities, diverse backgrounds, sense of longing or curiosity, absorbed in reading, shift in interests, dramatic lighting, cloudy weather, cinematic photo, epic, film grain
+ 7: 42.29% | processed_012461.mp4 | movie still, 1girl singing performer, passionate woman in vibrant red dress holding microphone, focused expression, lips curled into a smile, voice projected with conviction, dynamic arm movement as she sings, black concert stage background, spotlights shining down on her, dramatic lighting, electric atmosphere, cinematic close-up shot
+ 8: 42.10% | pexels_v2_01992.mp4  | A heartwarming moment unfolds in soft, natural lighting as a woman shares a book with a young girl, their casual attire and tranquil surroundings creating a serene snapshot of everyday connection.
+ 9: 41.76% | processed_005406.mp4 | A young woman musician sings into a microphone in a dimly lit room. She has black and white skull makeup on her face and wears a necklace. With eyes closed, she appears lost in the music. She holds a guitar and continues to sing with confidence, surrounded by brick walls and dark tones.
+10: 41.68% | processed_004553.mp4 | A young woman undergoes an emotional transformation from sadness to hope. Her facial expression changes dramatically across four scenes, while her surroundings and lighting conditions shift. The scene transitions from a serene green environment to a vibrant display of colors on her face, and finally to a dark night sky with a full moon.
+
+
+==================================================
+
+=== PROMPT: "Tall guy, slim, moderately muscular, dark circles under his eyes, light skin, brown eyes, not very short thick hair, black hair, full lips, straight eyebrows of medium thickness and density, sharp chin, sometimes a stern look, has a tattoo of dots on his thigh, wears a nose piercing, tall, teacher, 30 years old, attractive, wears rectangular glasses, a "smile" scar from the corners of his lips to the middle of his cheeks, sometimes slicks his hair back, hair messy, official clothing style, neatness, some unusual features." ===
+
+--- MODEL: sentence-transformers/all-MiniLM-L6-v2 ---
+TIME: 0.1736s
+ 1: 57.62% | processed_020610.mp4 | professional photo, 1man intricate face patterns, striking profile view etched lines on his skin focused expression side view revealing more details of the patterns steady unwavering gaze front view showcasing depth and dimension to his eyes, greenish-blue background constant across all three frames mysterious tone intriguing atmosphere
+ 2: 56.12% | processed_009548.mp4 | close up photo, 1boy black leather jacket sunglasses, confident young man with angular features, stylish haircut, dark eyes, wearing black leather jacket and sunglasses, slight smile, leaning against wall, indoor setting with multiple windows and lights, dimly lit atmosphere, natural light illuminating space, subtle shadows
+ 3: 55.46% | processed_010777.mp4 | close up photo, 1boy confident smirk, young man with spiky blonde hair, striking blue eyes, white shirt, casual yet assertive posture in frames 1 and 4, arms crossed over chest in frame 3, hands on hips in frame 2, stark white background, consistent camera angle, direct gaze, evolving portrayal of confidence and assertiveness
+ 4: 54.31% | processed_001761.mp4 | A young adult with a determined look on their face is in mid-stride, moving to the right side of the image. They have dark hair, an athletic build, and are dressed in a white shirt and tight pants. The background is dark, but the top left corner is illuminated by soft pink and purple hues.
+ 5: 53.22% | processed_010057.mp4 | close-up photo, 1man muscular physique, muscular man with dreadlocks and pale skin flexing his muscles, bulging biceps and chest, intense facial expression, black attire, dark industrial setting, factory or warehouse, pipes and machinery, underground area, tense and dark atmosphere
+ 6: 52.36% | processed_033256.mp4 | professional photo, close-up face and eye, 1girl and 1boy with expressive faces, detailed facial features, rich brown eyes, elegant headband, different facial expressions from various angles, close-ups of individual eyes showcasing rich brown color and detailed pupils, eyes peeking over a black barrette or headband adding elegance, same face from slightly different angles revealing more facial features, modern indoor setting with soft natural light, minimalist background allowing focus on the subject, subtle shadows accentuating facial expressions
+ 7: 52.19% | processed_012280.mp4 | close-up photo, professional portrait, 1man pink makeup, blonde hair, curious expression, blonde-haired man with bright pink cheeks and neck makeup, wearing a pink jacket, gazing off-camera with interest, subtle smile, direct eye contact, slight squint of the eyes, studio setting, plain white background, single light source, dramatic lighting effects, shallow depth of field, focus on subject's face
+ 8: 51.98% | processed_009979.mp4 | professional photo, 1boy serious expression, young man with neatly styled hair, intense gaze, slight hunch in second frame, upright movement, relaxed posture in final frame, maintaining consistent facial expression throughout, stark black background, indoor location, dramatic lighting, focus on main subject
+ 9: 51.76% | processed_022341.mp4 | vibrant photo, 1man multicolored face, close-up of man's face with intricate design on forehead and around eyes, vibrant colors ranging from red and orange to blue, detailed facial art, constant blue-colored eyes, urban outdoor setting, city street background, subtle depth and complexity
+10: 51.48% | processed_029158.mp4 | photorealistic portrait, 1man white hair mustache, aging man with expressive eyes and bushy mustache looking off-camera, wearing a yellow sweater, slight smile, wrinkles on face, mustache details visible, cluttered living room indoor setting warm natural light soft focus inviting contemplation introspection
+
+
+==================================================
+
+=== PROMPT: "The story takes place in an ancient library that holds a great secret: a magical book that grants its owner the power to control the four elements. A brave young man named Ahmed decided to explore the library and found the book, but upon opening it, he unleashed tremendous magical powers. An old wise man appeared to him and warned him against misusing this power, urging him to use it for good. In the end, Ahmed decided to heed the wise man's advice and use his power to protect others." ===
+
+--- MODEL: sentence-transformers/all-MiniLM-L6-v2 ---
+TIME: 0.1747s
+ 1: 45.59% | mixkit_v2_03734.mp4  | Fortune teller reading an ancient book
+ 2: 45.07% | mixkit_v2_03732.mp4  | Fortuneteller reading an ancient book
+ 3: 43.66% | processed_003051.mp4 | A man rides a bicycle through a quiet library. He's wearing a light-colored sweater, hat, and glasses. The bike has a basket in front and he pedals past bookshelves filled with books, vases, and plants. Soft natural light illuminates the scene, conveying a sense of curiosity and exploration.
+ 4: 42.09% | processed_004894.mp4 | A man in his mid-30s stands in front of a large stone tower. He wears a dark-colored robe with intricate gold details on the sleeves. The tower looms behind him, its ornate architecture suggesting historical significance. His dark hair and eyes are obscured by shadows, adding mystery to the scene.
+ 5: 41.19% | processed_005000.mp4 | A man sits in different settings, engrossed in reading a black book with gold lettering. He wears a traditional tallit and is often indoors, surrounded by soft lighting and elegant furnishings. The scene shifts to a garden under the night sky, where he continues to read, lost in thought.
+ 6: 41.19% | processed_016348.mp4 | comic book cover, 1wizard, adult male with long hair and beard holding staff in right hand, wearing dark blue robes with intricate golden details, surrounded by flames and mystical symbols, medieval fantasy world dark castle ruins in background, stars and moons shining in sky, mystical energy swirling around wizard
+ 7: 40.59% | processed_006376.mp4 | A middle-aged man sits comfortably at a table, reading a book with a focused expression. He holds the book in both hands, with a glass of water beside him. Warm natural light from a window illuminates the scene, creating a calm and inviting atmosphere. The setting is an indoor space with a sense of nostalgia.
+ 8: 39.97% | processed_005145.mp4 | A person's right hand holds a wooden rolling pin over two pink books with the title "Aesop's Fables" visible on one cover. The hand reaches for and picks up a small brown object from a nearby table, interacting with it in different ways. The scene is set indoors with natural light and a muted color palette.
+ 9: 39.83% | processed_000571.mp4 | A quiet moment in a cozy library. A person's hand holds a stack of books on a wooden shelf, gently releasing the topmost book. Soft, warm light fills the space, with golden hues and gentle shadows.
+10: 38.09% | pexels_v2_01473.mp4  | Dive into a whimsical world where a scholarly bunny, with oversized glasses, turns pages of a heavy tome, against a vibrant green backdrop. It's a quirky, bookish adventure!
+
+
+==================================================
+
+=== PROMPT: "video of holiday greetings from the Astra Honda Motor labor union" ===
+
+--- MODEL: sentence-transformers/all-MiniLM-L6-v2 ---
+TIME: 0.1608s
+ 1: 52.64% | mixkit_v2_04417.mp4  | Happy family greeting at the camera on Christmas
+ 2: 52.21% | pexels_v2_00508.mp4  | Channeling holiday cheer, this video captures the effervescence of celebration with champagne toasts among warmly lit festive decor. #HolidayVibes 🥂✨
+ 3: 48.67% | mixkit_v2_02616.mp4  | Title video with Christmas decorations concept
+ 4: 47.69% | mixkit_v2_02605.mp4  | Background Christmas video
+ 5: 46.15% | mixkit_v2_03481.mp4  | Christmas concept title video with trees and gifts
+ 6: 45.21% | pexels_v2_00097.mp4  | A heartwarming exchange of Christmas gifts unfolds, featuring a serene, joyous ambiance, soft lighting, and festive twinkling lights. The video captures the spirit of the season in warm hues.
+ 7: 44.99% | mixkit_v2_06663.mp4  | Three funny Santa Clauses waving at the camera on christmas day
+ 8: 44.71% | processed_006164.mp4 | A series of four photographs showing a festive sign that reads "HAPPY HANUKKAH 2020". The sign is lit up in each picture, with partial text visible at first and gradually revealing more words as the images progress.
+ 9: 44.45% | pexels_v2_02214.mp4  | Toasted togetherness with elegant flutes against a sunset palette, this video captures the essence of celebration, warmth, and joyful moments shared.
+10: 44.37% | mixkit_v2_02607.mp4  | Background Christmas decorations video
+
+
+==================================================
+
+=== PROMPT: "naked woman's breast" ===
+
+--- MODEL: sentence-transformers/all-MiniLM-L6-v2 ---
+TIME: 0.163s
+ 1: 46.04% | processed_003825.mp4 | A young woman is shown working out at a gym. She's wearing a black sports bra and stands in different positions - initially still, then raising her arm, and finally extending it fully. The image has a cinematic feel, with bright lighting and a focus on the subject.
+ 2: 44.41% | processed_034764.mp4 | cinematic photo, 1woman in blue and white bra adorned with flowers, young woman's face confident expression hair slightly disheveled decorated bra visible as she moves forward through city streets at night her body dynamic pose slight smile on her lips, city street night scene neon lights reflecting off wet pavement rainy weather dark clouds dramatic atmosphere low-angle view
+ 3: 43.75% | processed_036594.mp4 | photorealistic image, 1woman in transformation from modest to bold attire, young woman with long sleeves and high neckline rolling up sleeves revealing arms, then extending neckline towards collar, finally wearing full body stocking or lingerie, confident expression throughout, warmly lit room with window and mirror in background, simple yet elegant setting, empowering atmosphere
+ 4: 42.53% | mixkit_v2_01377.mp4  | Eyes of a woman getting makeup
+ 5: 42.46% | processed_015826.mp4 | photorealistic image, 1woman bottle and hands, woman in her mid-30s with long brown hair and a gentle expression cradling a small glass bottle sealed with a white cap and black text, her fingers deftly maneuvering around the bottle's neck and mouth as if opening or sealing it, her eyes focused intently on this task, her hands are steady and deliberate in their movements, simple white wall behind her with an indistinct window punctuating it, serene backdrop to this intimate scene, soft natural light illuminating the subject from the side
+ 6: 42.29% | processed_031952.mp4 | movie still, 1girl confident pose, young woman standing with hands on hips and head tilted to side wearing gray sports bra and red gloves, subtle shift in body weight onto one foot in second frame walking towards camera in third frame, neutral gradient background transitioning from green to brown, vibrant red of gloves contrasting against gray sports bra
+ 7: 42.26% | processed_009251.mp4 | realistic photo, 1woman pink dress, young woman with long hair, direct gaze, neutral yet inviting expression, standing from plush red couch to wooden floor, cutout design on her bra visible throughout, varying postures and facial expressions across four frames, indoors, minimal background, warm lighting, cinematic style, close-up shots of the subject's face and body
+ 8: 41.20% | mixkit_v2_07167.mp4  | In front of the bathroom mirror, a young woman takes a moment for a skincare indulgence. With a deliberate touch, she delicately applies a luxurious beauty face mask to her face.
+ 9: 41.17% | mixkit_v2_05024.mp4  | Female model with winter makeup lying on cotton between Christmas trees with blinking lights.
+10: 41.04% | processed_000841.mp4 | A woman's face and upper body are carved into a white marble sculpture. She has a calm expression, looking straight ahead. A brown curtain hangs behind her, providing a simple backdrop for the sculpture. The camera focuses closely on the bust, with no distracting patterns or textures.
+
+
+==================================================
+
+=== PROMPT: "In a village, there lived a kind-hearted boy named Ali. Ali was poor but always helped others. One day, while he was going to the forest, he saw a bag near a tree. When he opened it, he was amazed because it was filled with gold coins." ===
+
+--- MODEL: sentence-transformers/all-MiniLM-L6-v2 ---
+TIME: 0.1686s
+ 1: 43.72% | processed_001574.mp4 | A photo of a pile of gold coins on a wooden table. The coins are old and worn, with some bearing the number 100. They're scattered across the surface in a mix of loose and overlapping arrangements, creating a simple yet atmospheric scene.
+ 2: 42.85% | processed_006705.mp4 | A still life photo of six gold coins and three small figurines on a table. The coins are intricately detailed and scattered around, while the figurines wear elaborate clothing and stand in the background with a yellow hat. A warm golden light fills the scene, creating a nostalgic atmosphere.
+ 3: 40.93% | pexels_v2_00995.mp4  | A heartwarming tale at the grocery, a woman and her young child share a candid and joyful moment against a backdrop of vibrant, fresh produce. Their connection radiates warmth, capturing a slice of everyday life.
+ 4: 40.17% | processed_031537.mp4 | cartoon image, 1boy 3 identical boys with boy in green attire and hat holding bowl of gold coins, young boy smiling happy eyes bright green shirt and hat holding wooden spoon over brimming golden coins, three other identical boys in same outfit beside him each also holding similar bowls, vibrant rainbow above them, impressionistic mountains and trees below, whimsical fantasy setting soft colored pastel background with magical rainbow spanning the sky impressionistic mountains and trees adding depth and complexity to scene
+ 5: 39.95% | processed_000520.mp4 | A small gold coin moves across a blue map background towards a smaller silver coin. The coins have detailed textures and shine in warm light. The map remains constant with minimal details throughout. The scene conveys a sense of journey and adventure.
+ 6: 39.87% | pexels_v2_02050.mp4  | A heartwarming farmyard scene bathed in soft, rustic tones as a child finds friendship with gentle calves, capturing the innocence of animal-human bonds.
+ 7: 39.75% | pexels_v2_02137.mp4  | A spirited child with tousled curls and a playful grin practices ring toss under a golden afternoon sun, casting a joyful aura over the vibrant park. His focused expression and playful stance reveal determination as he engages with brightly colored rings, embodying the essence of childhood exploration. The lush grass and scattered trees provide a lush backdrop, enhancing the film's whimsical tone. This photorealistic scene captures the innocence and exuberance of youth, evoking nostalgia and a carefree spirit.
+ 8: 39.21% | processed_038696.mp4 | photorealistic image, 1boy umbrella and trees, young boy in vibrant yellow jacket and blue jeans holding black umbrella, looking up towards something unseen, surrounded by lush greenery and varying shades of foliage, with a subtle sense of movement and fluidity throughout the sequence, deep within a forest setting on a rainy day, serene and reflective atmosphere, soft natural light filtering through the trees, gentle raindrops visible on the boy's clothing and umbrella
+ 9: 39.20% | processed_003810.mp4 | A young boy rides a black bicycle down a dirt path in a forest. He wears a blue shirt and black shorts, his hair slightly mussed as he looks ahead with a casual expression. The surrounding trees and lush greenery create a serene atmosphere, illuminated by soft natural light filtering through the leaves.
+10: 38.76% | pexels_v2_00950.mp4  | A heartwarming stroll at golden hour, capturing a woman and child hand-in-hand. The soft hues and rural backdrop exude tranquility and a blissful return to simplicity, evoking nostalgia.
+
+
+==================================================
+
+=== PROMPT: "Good morning" ===
+
+--- MODEL: sentence-transformers/all-MiniLM-L6-v2 ---
+TIME: 0.1687s
+ 1: 52.55% | mixkit_v2_02057.mp4  | Morning pancakes
+ 2: 47.10% | pexels_v2_01576.mp4  | A serene morning unfolds with soft light spilling into a cozy bedroom, capturing a moment of tranquility as a person slowly awakens, amidst a minimalist aesthetic sprinkled with personal mementos.
+ 3: 46.66% | mixkit_v2_01389.mp4  | Eating a delicious breakfast
+ 4: 43.87% | pexels_v2_01829.mp4  | Cozy morning vibes unfold as a woman enjoys a serene breakfast-in-bed scene, sipping tea in a soft, warmly lit room that whispers relaxation.
+ 5: 43.16% | pexels_v2_00290.mp4  | Two friends share a cozy morning, capturing selfies in a sunlit room, exuding effortless, loungewear chic against serene, earthy hues. #BFFGoals #MorningVibes
+ 6: 40.33% | mixkit_v2_04173.mp4  | Breakfast ready on the table
+ 7: 40.09% | mixkit_v2_07037.mp4  | Quiet beauty of a misty morning. A tranquil forest amids the morning mist.
+ 8: 38.69% | pexels_v2_01932.mp4  | In soft morning light, a woman with unruly, sun-kissed curls joyfully navigates a rural path. Dressed in a casual tee and distressed jeans, she's playfully entangled with four lively dogs, each vying for attention. Their wagging tails and excited barks create a symphony of companionship, as they stroll together under a pale blue sky. The verdant backdrop whispers of freedom, enhancing the scene's warm, carefree atmosphere—perfect for a feel-good escape. The mood radiates happiness and connection, reminiscent of a relatable Instagram post turned into cinematic warmth.
+ 9: 38.00% | processed_002583.mp4 | Two people standing back to back on a rocky shoreline at dawn. They're silhouetted against the golden light of a rising sun, with long shadows stretching out in front of them. The warm glow of morning casts a peaceful atmosphere over the ocean and its waves.
+10: 37.53% | mixkit_v2_01416.mp4  | Baby having breakfast
+
+
+==================================================
+
+=== PROMPT: "A for Apple and B for Ball" ===
+
+--- MODEL: sentence-transformers/all-MiniLM-L6-v2 ---
+TIME: 0.1576s
+ 1: 48.42% | mixkit_v2_03087.mp4  | Gray rabbit and an apple
+ 2: 48.41% | mixkit_v2_02051.mp4  | Mango and other fruit
+ 3: 46.27% | mixkit_v2_02255.mp4  | Basket full of different kind of fruit
+ 4: 44.73% | processed_000154.mp4 | A small, juicy red apple is placed on a bright blue card with a sunny day illustration of clouds and flowers. The background is slightly blurred, giving a light-hearted feel to the image. The overall atmosphere is playful and whimsical.
+ 5: 43.52% | mixkit_v2_03760.mp4  | Variety of fruits in the market
+ 6: 43.49% | processed_022855.mp4 | movie still, 1boy and small group of people in action sequence, close-up of hand gripping bat poised for action, figure swinging bat at target, apple struck by bat, close-up of bruised apple, hand holding bat, motion of swing, impact on apple, dented apple, indoor sports facility with abstract patterns in blue and orange hues
+ 7: 42.00% | mixkit_v2_03711.mp4  | Fruits with price tags in the supermarket trays
+ 8: 41.51% | processed_025941.mp4 | vibrant image sequence, floating apples strawberries watermelon hearts, group of colorful apples with hearts suspended in mid-air, single apple accompanied by strawberry and watermelon, futuristic cityscape with hearts floating amidst skyscrapers, purple backdrop transitioning to blue gradient urban jungle setting
+ 9: 40.87% | mixkit_v2_02302.mp4  | Red electric ball
+10: 40.69% | processed_027007.mp4 | movie still, 1girl and 1boy red apples, young woman in blue shirt holding one red apple up to her face, man in background looking at two identical apples held to his face, confetti falling around them, vibrant red apples with green stems on black surface, pink and blue confetti swirling in the air, two people interacting with the apples in different ways, black surface against white background, consistent setting throughout, dramatic lighting, cinematic atmosphere
+
+
+==================================================
+
+=== PROMPT: "A snowman playing the cello" ===
+
+--- MODEL: sentence-transformers/all-MiniLM-L6-v2 ---
+TIME: 0.1676s
+ 1: 46.02% | processed_005512.mp4 | A man plays a violin in four different scenes. He's dressed in a black suit and tie, and his expression is focused throughout. The scenes show him under a tree with a red roof during the day, then indoors in a similar space, before returning to the outdoor setting at night.
+ 2: 45.09% | mixkit_v2_04066.mp4  | Person playing piano in autumn
+ 3: 44.77% | mixkit_v2_02680.mp4  | Christmas background while snowing, 3D animation
+ 4: 42.77% | processed_028430.mp4 | cinematic photo, 1boy playing cello, young man with black jacket and blue jeans immersed in music, fingers moving on strings of instrument, dark brown color against light background, Buckingham Palace red brick facade large ornate windows visible in the background serene light blue sky calm day or late afternoon progression of performance different stage in each frame, grand historic landmark iconic backdrop intimate energy of musical performance contrast between palace and young man's passion and dedication cello a significant object dark brown color against lighter hues of palace surroundings action in each frame highlighting progression of performance, London England historic location majestic atmosphere perfect lighting vibrant scene dynamic movement energy young man playing the cello iconic landmark cinematic photo movie still epic dramatic atmosphere
+ 5: 42.74% | processed_006188.mp4 | A man in a black suit with gold accents plays a violin in a dimly lit indoor concert hall. He focuses on his instrument, his right hand moving skillfully across the strings as he holds the bow and violin with one hand. The atmosphere is elegant and cinematic.
+ 6: 42.52% | processed_018689.mp4 | professional photo, movie still, 1girl and 1boy cello musician orchestra, young woman in black suit holding cello with both hands intense focus anticipation close-up of face showing emotional depth direct gaze at audience standing on stage with orchestra pit behind her, concert hall darkened room spotlight shining down on performer stark contrast between black suit and white background cinematic atmosphere centered rule of thirds
+ 7: 41.29% | processed_006886.mp4 | A young man plays guitar in a dimly lit room. He wears a black suit and a white mask, holding his instrument with intensity. The scene is decorated with red curtains, flowers, and a brick wall. His fingers move rapidly across the strings as he performs.
+ 8: 40.97% | processed_006124.mp4 | A man in a black t-shirt and jeans plays a guitar in a cozy, dimly lit room. He sits or stands with the instrument held close, his hands moving over the strings. Yellow lights shine through blue curtains behind him, casting a warm glow on the scene.
+ 9: 40.78% | mixkit_v2_06078.mp4  | A man playing on an African drum with bright flashing lights
+10: 40.75% | mixkit_v2_03064.mp4  | Snowman inside a vase
+
+
+==================================================
+
+=== PROMPT: "A man fighting a monkey" ===
+
+--- MODEL: sentence-transformers/all-MiniLM-L6-v2 ---
+TIME: 0.1556s
+ 1: 56.27% | mixkit_v2_01871.mp4  | Angry monkey jumping around in the forest
+ 2: 52.56% | mixkit_v2_02827.mp4  | Monkey climbing down a tree
+ 3: 52.46% | mixkit_v2_01914.mp4  | Close up of a capuchin monkey on a tree
+ 4: 50.29% | mixkit_v2_01949.mp4  | Monkey eating on a tree
+ 5: 48.91% | mixkit_v2_01934.mp4  | Monkey eating from a coconut
+ 6: 48.76% | processed_019454.mp4 | movie still sci-fi, 1man human-to-monkey transformation, man wearing vibrant red and yellow jacket, then growing fur on arms and legs, fully transforming into a monkey with animalistic posture and monkey face, close-up shots of monkey head showing detailed facial features, natural outdoor setting with greenish-blue gradient background, sunlight, and slight haze, cinematic wide-angle shot emphasizing the transformation process
+ 7: 47.44% | mixkit_v2_06188.mp4  | Monkey eating a fruit
+ 8: 47.31% | mixkit_v2_06429.mp4  | Monkey eating at a zoo in a cage
+ 9: 47.21% | mixkit_v2_01850.mp4  | Monkey eating fruit in the wild
+10: 46.88% | mixkit_v2_03175.mp4  | Monkey holding out a hand for food
+
+
+==================================================
+
+=== PROMPT: "Virat Kohli meets Surya Kumar Yadav in the garden." ===
+
+--- MODEL: sentence-transformers/all-MiniLM-L6-v2 ---
+TIME: 0.1697s
+ 1: 38.52% | processed_038389.mp4 | cinematic photo, 1girl and 1boy traditional Indian attire, woman in blue face paint gold jewelry looking away from man in traditional outfit standing beside her both surrounded by lush green trees, woman's strong confident posture contrasting with subtle expression of woman, man's relaxed leaning against tree trunk gentle smile, serene garden outdoor natural environment unclear location soft warm sunlight dappled through leaves dreamy atmosphere
+ 2: 38.52% | processed_038824.mp4 | cinematic photo, 1girl and 1boy traditional Indian attire, woman in blue face paint gold jewelry looking away from man in traditional outfit standing beside her both surrounded by lush green trees, woman's strong confident posture contrasting with subtle expression of woman, man's relaxed leaning against tree trunk gentle smile, serene garden outdoor natural environment unclear location soft warm sunlight dappled through leaves dreamy atmosphere
+ 3: 37.09% | processed_004933.mp4 | A lively scene of traditional Indian women in colorful saris and headscarves walking alongside men on scooters and motorcycles on a bustling city street. The vibrant atmosphere is captured with warm sunlight and dynamic movement, showcasing the energy and activity of daily life in an urban setting.
+ 4: 37.00% | processed_005855.mp4 | A woman wearing a bright yellow traditional Indian dress, adorned with gold jewelry, sits in a beautiful outdoor garden. She has a serene expression and is surrounded by lush greenery, with tree trunks visible in the background. The lighting is warm and soft, capturing a peaceful moment in time.
+ 5: 36.79% | processed_019665.mp4 | cinematic photo, 1man in traditional Indian attire, adult man with white face paint red and black markings around eyes nose and mouth wearing vibrant yellow dhoti then rich orange dhoti and finally red dhoti looking leftward in third and fourth frames, traditional Indian clothing and makeup varying shades of color and expression through gaze, Indian setting ancient architecture or rural landscape warm sunlight soft focus golden hour atmosphere realistic style wide-angle view
+ 6: 36.69% | processed_029629.mp4 | movie still, 1girl and small group of people in traditional Indian attire, young woman with long black hair and blue and green sari stands on balcony at sunset, then near potted plant at night, finally on stage bathed in bright lights; vibrant colors and flowing fabrics throughout; consistent facial expression across all scenes, traditional Indian clothing, intricate embroidery, colorful patterns and textures; dynamic poses and expressions in each scene; sense of movement and energy, Indian setting transitioning from day to night with backdrop of changing sky and surroundings; warm and inviting atmosphere
+ 7: 36.30% | processed_028467.mp4 | cinematic photo, 1girl in garden, young woman with long brown hair and bright smile wearing blue jeans and blue shirt looking off-camera, then green dress with flowers, then back to blue shirt and jeans, then green dress again, traditional Japanese garden wooden bridge over koi pond soft evening light dreamy atmosphere ukiyo-e inspired style low angle view
+ 8: 36.27% | processed_000106.mp4 | A serene garden scene with a person standing in the center. They hold a pink drink and a yellow drink with a straw, mirroring the action of a nearby pineapple that transforms into a human-like form. Lush greenery surrounds them under soft natural light.
+ 9: 35.47% | processed_006590.mp4 | A warm and inviting scene of an Indian woman in traditional attire enjoying a meal at home. She sits in front of a colorful and delicious spread of sweets and snacks, savoring each bite with a look of satisfaction on her face, surrounded by the soft natural light of a sunny day.
+10: 35.43% | processed_005107.mp4 | A vibrant street food scene in India. Three vendors - two women and one man - work together to prepare a meal amidst a bustling outdoor market. The women wear traditional Indian clothing as they chop ingredients with a knife and stir a pot. The man assists with a spoon, surrounded by the lively atmosphere of a sunny day.
+
+
+==================================================
+
+=== PROMPT: "This western outlaw Jack Martson is in a shootout with the bounty hunter Red Harlow, but Jack wins." ===
+
+--- MODEL: sentence-transformers/all-MiniLM-L6-v2 ---
+TIME: 0.1609s
+ 1: 39.22% | processed_009243.mp4 | western movie still, 1man with gun and cowboy hat, tall man in dark jacket and jeans, black revolver with silencer, rugged cowboy hat remains constant, pose changes slightly between frames, rural forest setting under clear blue sky, trees as backdrop, natural sunlight
+ 2: 38.32% | processed_038032.mp4 | western movie still, 1man walking with rifle blue cowboy hat shirt boots, relaxed posture dressed in denim cowboy attire holding rifle looking around at western town scenery dust kicking up from boots walking towards camera then away, old west desert landscape sun setting dusty streets wooden buildings rustic atmosphere photorealistic style low angle view
+ 3: 37.82% | processed_014164.mp4 | movie still sci-fi, 1boy Jack Skellington character, Jack's iconic black silhouette against purple and pink hues, striking purple light on his upper body, close-up shot of his face with enigmatic expression as he walks towards the camera, dramatic lighting effects, contrast between dark background and vibrant colors, Halloween town or a similar fantasy setting, autumn season, dimly lit streets with jack-o-lanterns and spider webs, eerie atmosphere, film noir style, cinematic composition
+ 4: 36.22% | processed_014666.mp4 | movie still sci-fi, 1boy red knight, red armored warrior with sword, determined expression, standing on rocky outcropping, charging forward, standing atop cliff overlooking battle, riding towards army with sword drawn high, mountainous landscape under dark sky, stark contrast to fiery red of knight's attire and equipment, dramatic intensity, adrenaline-fueled depiction of courage and valor
+ 5: 35.48% | processed_004791.mp4 | A dramatic scene from a traditional Spanish bullfight. A seasoned matador, dressed in white and wearing a wide-brimmed hat, confidently holds a cape (muleta). With swift precision, he stabs the bull with a sharp sword, then stands triumphantly over its defeated body amidst cheering crowds in the late afternoon sun.
+ 6: 34.82% | mixkit_v2_04938.mp4  | Brave mercenary aiming his gun
+ 7: 34.61% | processed_023235.mp4 | fantasy movie still, 1boy warrior with sword bow and shield, tall muscular man in deep red armor gripping sword ready for battle, later armed with bow amidst fire flames encircling him, then with sword and shield facing adversary directly, finally standing at center of battle scene with all three weapons, dark blue sky speckled with stars timelessness epic atmosphere cinematic wide-angle shot low angle view
+ 8: 33.78% | processed_023239.mp4 | movie still, 1masked person in red cape and mask, central figure in vibrant red attire standing against a stark black backdrop with arms changing positions across different frames, face concealed behind a constant red mask, figure's pose varies - standing with arms at sides, extending them outwards, holding them up, and crossing them behind the back; bright red cape and matching mask remain consistent throughout, mysterious and intriguing atmosphere, set against a stark black backdrop that highlights the individual, creating a visually striking image
+ 9: 33.72% | mixkit_v2_04924.mp4  | Mercenary during a combat with a firearm in an abandoned place, charging and pointing through a window.
+10: 33.59% | processed_011496.mp4 | movie still sci-fi, 1man cowboy, 1woman companion, dressed in brown cowboy hat and jacket, walking through snowy terrain; holding torch aloft with flame dancing against night sky; determined expression on his face; woman's arm extending from the right side of the frame, snowy mountain landscape, cold darkness, sense of mystery and intrigue
+
+
+==================================================
+

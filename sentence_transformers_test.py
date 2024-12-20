@@ -10,7 +10,7 @@ from sentence_transformers import SentenceTransformer
 
 # Configuration
 DEVICE = torch.device("cpu")
-DATA_FOLDER = "data"
+DATA_FOLDER = "data_ori"
 METADATA_FILENAME = "metadata.txt"
 
 # Models and their corresponding embeddings files
@@ -61,7 +61,7 @@ for model_name, config in AVAILABLE_MODELS.items():
         sys.exit(1)
 
 
-def load_test_prompts(filename="testing_prompts_gpt_final.txt"):
+def load_test_prompts(filename="prompt_gpt_thai.txt"):
     try:
         with open(filename, "r", encoding="utf-8") as f:
             # Filter out empty lines and strip leading/trailing spaces
@@ -74,7 +74,7 @@ def load_test_prompts(filename="testing_prompts_gpt_final.txt"):
 
 
 # Test prompts
-test_prompts = load_test_prompts("prompt_gpt.txt")
+test_prompts = load_test_prompts("prompt_gpt_thai.txt")
 
 # Number of top results to retrieve
 TOP_K = 10
